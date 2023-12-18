@@ -1,6 +1,6 @@
 # Homepage Episodes
 
-Hans: Live-Editing funktioniert.
+Hans: Live-Editing funktioniert auf Studio.
 
 This page corresponds to the `/` route of your website. You can delete it or create another file in the `content/` directory.
 
