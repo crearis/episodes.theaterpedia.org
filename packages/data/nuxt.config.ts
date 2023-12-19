@@ -27,7 +27,6 @@ export default defineNuxtConfig({
     registerType: 'autoUpdate',
     workbox: {
       navigateFallback: null,
-      globDirectory: '.nuxt/dist',
       globPatterns: ['**/*.{js,json,css,html,ico,svg,png,webp,ico,woff,woff2,ttf,eit,otf}', 'icons/*'],
       globIgnores: ['manifest**.webmanifest'],
       additionalManifestEntries: [
