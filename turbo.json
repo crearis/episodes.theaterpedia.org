@@ -4,8 +4,8 @@
     "build": {
       "dependsOn": ["^build"],
       "outputs": [
+        ".output/**",        
         "dist/**",
-        ".output/**",
         ".histoire/**",
         "**/.vitepress/dist/**"
       ]
@@ -13,8 +13,8 @@
     "generate" : {
       "dependsOn": ["^generate"],
       "outputs": [
-        "dist/**",
-        ".output/**"
+        ".output/**",
+        "dist/**"
       ]
     },
     "release" : {
