@@ -13,7 +13,7 @@
     "generate" : {
       "dependsOn": ["^generate"],
       "outputs": [
-        ".output/**",
+        ".output/public/**",
         "dist/**"
       ]
     },
