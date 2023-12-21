@@ -4,16 +4,17 @@
     "build": {
       "dependsOn": ["^build"],
       "outputs": [
+        ".output/**",        
         "dist/**",
-        ".output/**",
-        ".histoire/**"
+        ".histoire/**",
+        "**/.vitepress/dist/**"
       ]
     },
     "generate" : {
       "dependsOn": ["^generate"],
       "outputs": [
-        "dist/**",
-        ".output/**"
+        ".output/public/**",
+        "dist/**"
       ]
     },
     "release" : {
