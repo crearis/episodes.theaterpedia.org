@@ -46,7 +46,7 @@ features:
       icon: 'i-simple-icons-markdown'
       to: 'https://content.nuxt.com'
       target: '_blank'
-    - title: 'Nuxt UI'
+    - title: 'Blocks und Layouts'
       description: 'Offers a very large set of full customizable components.'
       icon: 'i-heroicons-sparkles-20-solid'
       to: 'https://ui.nuxt.com'
