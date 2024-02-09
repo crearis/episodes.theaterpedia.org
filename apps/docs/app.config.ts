@@ -1,7 +1,7 @@
 export default defineAppConfig({
   ui: {
-    primary: 'pink',
-    gray: 'zinc',
+    primary: 'green',
+    gray: 'stone',
     footer: {
       bottom: {
         left: 'text-sm text-gray-500 dark:text-gray-400',
@@ -15,16 +15,21 @@ export default defineAppConfig({
   header: {
     logo: {
       alt: '',
-      light: '',
-      dark: ''
+      light: '/theaterpedia-logo.png',
+      dark: '/theaterpedia-logo.png'
     },
     search: true,
     colorMode: true,
     links: [{
-      icon: 'i-simple-icons-github',
-      to: 'https://github.com/nuxt-ui-pro/docs',
+      icon: 'heroicons-outline:home',
+      to: 'https://theaterpedia.org',
       target: '_blank',
-      'aria-label': 'Docs template on GitHub'
+      'aria-label': 'Theaterpedia Homepage'
+    }, {
+      icon: 'mingcute:egg-line',
+      to: 'https://dasei.eu',
+      target: '_blank',
+      'aria-label': 'DAS Ei - Theaterpädagogisches Institut Bayern e.V.'
     }]
   },
   footer: {
