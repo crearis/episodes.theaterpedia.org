@@ -3,7 +3,7 @@ description: 'Welcome to Nuxt UI Pro documentation template.'
 navigation: false
 hero:
   title: 'Theaterpedia'
-  description: 'Websites, Geschäftsmodelle und Wissensdatenbank der Theaterpädagogik unter einem Dach, Open Source und mit voller Datenkontrolle'
+  description: 'Websites, Geschäftsmodelle und Wissensdatenbank der Theaterpädagogik unter einem Dach, Open Source und mit voller Datenkontrolle.'
   orientation: horizontal
   headline:
     label: Theaterpädagogik digital vernetzen
