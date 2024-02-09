@@ -1,16 +1,16 @@
-title: 'Nuxt UI Pro - Docs template'
+title: 'Theaterpedia - Dokumentation'
 description: 'Welcome to Nuxt UI Pro documentation template.'
 navigation: false
 hero:
   title: 'Theaterpedia'
-  description: 'Theaterpädagogik-Websites in Null-Komma-Nichts!'
+  description: 'Websites, Geschäftsmodelle und Wissensdatenbank der Theaterpädagogik unter einem Dach, Open Source und mit voller Datenkontrolle'
   orientation: horizontal
   headline:
-    label: Vernetzung inklusive
-    to: https://ui.nuxt.com/pro
+    label: Theaterpädagogik digital vernetzen
+    to: https://launch.theaterpedia.org
     icon: i-heroicons-arrow-top-right-on-square-20-solid
   links:
-    - label: Wie funktioniert's?'
+    - label: Los geht's'
       icon: i-heroicons-arrow-right-20-solid
       trailing: true
       to: '/getting-started'
@@ -19,12 +19,9 @@ hero:
       icon: i-simple-icons-github
       size: lg
       color: gray
-      to: https://github.com/theaterpedia/theaterpedia-core
+      to: /dev-docs
       target: _blank
-  code: |
-    ```bash [Terminal]
-    npx nuxi init -t github:nuxt-ui-pro/docs
-    ```
+
 features:
   title: 'Was Theaterpedia kann oder können soll'
   links:

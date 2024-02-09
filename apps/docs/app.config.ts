@@ -36,25 +36,15 @@ export default defineAppConfig({
     credits: 'Copyright © 2024',
     colorMode: false,
     links: [{
-      icon: 'i-simple-icons-nuxtdotjs',
-      to: 'https://nuxt.com',
+      icon: 'heroicons-outline:home',
+      to: 'https://theaterpedia.org',
       target: '_blank',
-      'aria-label': 'Nuxt Website'
+      'aria-label': 'Theaterpedia Homepage'
     }, {
-      icon: 'i-simple-icons-discord',
-      to: 'https://discord.com/invite/ps2h6QT',
+      icon: 'mingcute:egg-line',
+      to: 'https://dasei.eu',
       target: '_blank',
-      'aria-label': 'Nuxt UI on Discord'
-    }, {
-      icon: 'i-simple-icons-x',
-      to: 'https://x.com/nuxt_js',
-      target: '_blank',
-      'aria-label': 'Nuxt on X'
-    }, {
-      icon: 'i-simple-icons-github',
-      to: 'https://github.com/nuxt/ui',
-      target: '_blank',
-      'aria-label': 'Nuxt UI on GitHub'
+      'aria-label': 'DAS Ei - Theaterpädagogisches Institut Bayern e.V.'
     }]
   },
   toc: {
