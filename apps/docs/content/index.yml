@@ -23,7 +23,7 @@ hero:
       target: _blank
 
 features:
-  title: 'Was Theaterpedia kann oder können soll'
+  title: 'Worauf Theaterpedia basiert'
   links:
     - label: 'Explore Nuxt UI Pro'
       icon: 'i-simple-icons-nuxtdotjs'
