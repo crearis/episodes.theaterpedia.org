@@ -1,5 +1,4 @@
 # Theaterpedia-Core: Theme Episodes
-
 ## What's inside?
 
 This is a development-only repo. To get a quick understanding by studying a running example of Theaterpedia head over to the [Theaterpedia-Repo](https://github.com/theaterpedia/theaterpedia).
