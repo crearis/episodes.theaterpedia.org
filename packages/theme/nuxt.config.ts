@@ -2,14 +2,14 @@
 // https://nuxt.com/docs/guide/going-further/layers#relative-paths-and-aliases
 // make tailwind-config, lang, i18n.config, etc. exportable from theme-main
 
-import { fileURLToPath } from 'url';
-import { dirname, join } from 'path';
-
-const currentDir = dirname(fileURLToPath(import.meta.url));
-const isRootDir = !(currentDir.endsWith('packages/theme'));
+import { fileURLToPath } from 'node:url'
+import { dirname } from 'node:path'
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import { defineNuxtConfig } from 'nuxt/config';
+import { defineNuxtConfig } from 'nuxt/config'
+
+const currentDir = dirname(fileURLToPath(import.meta.url))
+const isRootDir = !(currentDir.endsWith('packages/theme'))
 export default defineNuxtConfig({
 
   typescript: {
@@ -43,11 +43,11 @@ export default defineNuxtConfig({
       '4xl': 1920,
       '3xl': 1536,
       '2xl': 1366,
-      xl: 1280,
-      lg: 1024,
-      md: 768,
-      sm: 640,
-      xs: 376,
+      'xl': 1280,
+      'lg': 1024,
+      'md': 768,
+      'sm': 640,
+      'xs': 376,
       '2xs': 360,
     },
   },
@@ -55,8 +55,8 @@ export default defineNuxtConfig({
   runtimeConfig: {
     // for getImages plugin
     public: {
-      odooBaseUrl: ''
-    }
+      odooBaseUrl: '',
+    },
   },
 
   routeRules: {
@@ -91,7 +91,7 @@ export default defineNuxtConfig({
       langDir: isRootDir ? './lang' : '../../node_modules/@crearis/theme-main/lang',
       defaultLocale: 'de',
     },
-  ], '@nuxt/image', 'nuxt-lazy-hydrate', '@vue-storefront/nuxt'],
+  ], '@nuxt/image', 'nuxt-lazy-hydrate', '@vue-storefront/nuxt' ],
 
   tailwindcss: {
     exposeConfig: true,
@@ -104,4 +104,4 @@ export default defineNuxtConfig({
     },
   },
 
-});
+})
