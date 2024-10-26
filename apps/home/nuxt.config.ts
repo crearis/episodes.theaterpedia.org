@@ -5,6 +5,8 @@ const currentDir = dirname(fileURLToPath(import.meta.url))
 const isRootDir = !(currentDir.endsWith('apps/home'))
 
 export default defineNuxtConfig({
+  compatibilityDate: '2024-10-26',
+  
   extends: [
     '@crearis/theme-main',
     '@crearis/data-main',
