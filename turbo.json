@@ -1,6 +1,6 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "tasks": {
+  "pipeline": {
     "build": {
       "dependsOn": ["^build"],
       "outputs": [
@@ -15,7 +15,11 @@
         "dist/**",
         ".output/**"
       ]
-    },  
+    },
+    "release" : {
+      "dependsOn": ["^release"],
+      "outputMode": "new-only"
+    },    
     "lint": {
       "outputs": []
     },
