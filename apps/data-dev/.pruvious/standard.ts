@@ -1,5 +1,5 @@
-import { default as standardDashboardEnTranslatableStringsDefinition } from '../../../node_modules/pruvious/dist/runtime/translatable-strings/standard/dashboard.en'
-import { default as standardServerEnTranslatableStringsDefinition } from '../../../node_modules/pruvious/dist/runtime/translatable-strings/standard/server.en'
+import { default as standardDashboardEnTranslatableStringsDefinition } from '../../../node_modules/pruvious/dist/runtime/translatable-strings/standard/dashboard.en.js'
+import { default as standardServerEnTranslatableStringsDefinition } from '../../../node_modules/pruvious/dist/runtime/translatable-strings/standard/server.en.js'
 
 export const standardTranslatableStringsDefinition = {
   'dashboard': {

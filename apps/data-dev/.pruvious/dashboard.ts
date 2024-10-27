@@ -1,10 +1,31 @@
 // @ts-nocheck
 import { defineAsyncComponent } from '#imports'
 
+export * from '../../../node_modules/pruvious/dist/runtime/composables/dashboard/clipboard'
+
+export * from '../../../node_modules/pruvious/dist/runtime/composables/dashboard/collection-language'
+
+export * from '../../../node_modules/pruvious/dist/runtime/composables/dashboard/confirm-click'
+
 export * from '../../../node_modules/pruvious/dist/runtime/composables/dashboard/dashboard'
 
 export * from '../../../node_modules/pruvious/dist/runtime/composables/dashboard/dialog'
+
+export * from '../../../node_modules/pruvious/dist/runtime/composables/dashboard/fetch-count'
+
+export * from '../../../node_modules/pruvious/dist/runtime/composables/dashboard/hotkeys'
+
+export * from '../../../node_modules/pruvious/dist/runtime/composables/dashboard/media'
+
+export * from '../../../node_modules/pruvious/dist/runtime/composables/dashboard/move'
+
+export * from '../../../node_modules/pruvious/dist/runtime/composables/dashboard/redirects-test'
+
+export * from '../../../node_modules/pruvious/dist/runtime/composables/dashboard/search'
+
 export * from '../../../node_modules/pruvious/dist/runtime/composables/dashboard/toaster'
+
+export * from '../../../node_modules/pruvious/dist/runtime/composables/dashboard/unsaved-changes'
 
 export const dashboardCollectionsOverviewComponentImport = () => import('../../../node_modules/pruvious/dist/runtime/components/dashboard/CollectionsOverview.vue')
 export const dashboardCollectionsOverviewComponent = () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/dashboard/CollectionsOverview.vue'))
@@ -32,6 +53,106 @@ export const dashboardLogoutComponent = () => defineAsyncComponent(() => import(
 
 export const dashboardMediaComponentImport = () => import('../../../node_modules/pruvious/dist/runtime/components/dashboard/Media.vue')
 export const dashboardMediaComponent = () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/dashboard/Media.vue'))
+
+export const dashboardMiscComponentImport = {
+  'AddBlockPopup': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/AddBlockPopup.vue'),
+  'Base': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/Base.vue'),
+  'BlockTreeItem': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/BlockTreeItem.vue'),
+  'BooleanFieldPreview': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/BooleanFieldPreview.vue'),
+  'CollectionsContentRecord': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/CollectionsContentRecord.vue'),
+  'CollectionsSimpleRecord': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/CollectionsSimpleRecord.vue'),
+  'CollectionTranslations': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/CollectionTranslations.vue'),
+  'DateFormatField': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/DateFormatField.vue'),
+  'DateTimeFormatField': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/DateTimeFormatField.vue'),
+  'Dialog': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/Dialog.vue'),
+  'DragImage': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/DragImage.vue'),
+  'FieldLayout': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/FieldLayout.vue'),
+  'FieldLayoutTabs': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/FieldLayoutTabs.vue'),
+  'FilterPopup': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/FilterPopup.vue'),
+  'FilterRule': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/FilterRule.vue'),
+  'Globals': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/Globals.vue'),
+  'HistoryButtons': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/HistoryButtons.vue'),
+  'ImagePreview': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/ImagePreview.vue'),
+  'InputError': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/InputError.vue'),
+  'LegalLinks': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/LegalLinks.vue'),
+  'LoadingIndicator': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/LoadingIndicator.vue'),
+  'Logo': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/Logo.vue'),
+  'LogoFull': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/LogoFull.vue'),
+  'MediaBreadcrumbs': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/MediaBreadcrumbs.vue'),
+  'MediaDirectoryPopup': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/MediaDirectoryPopup.vue'),
+  'MediaFileInput': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/MediaFileInput.vue'),
+  'MediaItemDirectory': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/MediaItemDirectory.vue'),
+  'MediaItemUpload': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/MediaItemUpload.vue'),
+  'MediaLibrary': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/MediaLibrary.vue'),
+  'MediaLibraryPopup': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/MediaLibraryPopup.vue'),
+  'MediaMovePopup': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/MediaMovePopup.vue'),
+  'MediaMovePopupItem': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/MediaMovePopupItem.vue'),
+  'MediaUploadPopup': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/MediaUploadPopup.vue'),
+  'MoreBlockOptionsPopup': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/MoreBlockOptionsPopup.vue'),
+  'MultiCollectionsOverview': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/MultiCollectionsOverview.vue'),
+  'Popup': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/Popup.vue'),
+  'QuickActions': () => import('../../../packages/data/components/DashboardSyncMicrosoftCollections.vue'),
+  'SearchMedia': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/SearchMedia.vue'),
+  'SearchRecords': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/SearchRecords.vue'),
+  'SingleCollectionsOverview': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/SingleCollectionsOverview.vue'),
+  'StringFieldPreview': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/StringFieldPreview.vue'),
+  'TableColumnsPopup': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/TableColumnsPopup.vue'),
+  'TablePagination': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/TablePagination.vue'),
+  'TableSorter': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/TableSorter.vue'),
+  'Toaster': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/Toaster.vue'),
+  'TranslationsFieldPreview': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/TranslationsFieldPreview.vue'),
+  'UnsavedChanges': () => import('../../../node_modules/pruvious/dist/runtime/components/misc/UnsavedChanges.vue'),
+}
+
+export const dashboardMiscComponent = {
+  'AddBlockPopup': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/AddBlockPopup.vue')),
+  'Base': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/Base.vue')),
+  'BlockTreeItem': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/BlockTreeItem.vue')),
+  'BooleanFieldPreview': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/BooleanFieldPreview.vue')),
+  'CollectionsContentRecord': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/CollectionsContentRecord.vue')),
+  'CollectionsSimpleRecord': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/CollectionsSimpleRecord.vue')),
+  'CollectionTranslations': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/CollectionTranslations.vue')),
+  'DateFormatField': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/DateFormatField.vue')),
+  'DateTimeFormatField': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/DateTimeFormatField.vue')),
+  'Dialog': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/Dialog.vue')),
+  'DragImage': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/DragImage.vue')),
+  'FieldLayout': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/FieldLayout.vue')),
+  'FieldLayoutTabs': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/FieldLayoutTabs.vue')),
+  'FilterPopup': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/FilterPopup.vue')),
+  'FilterRule': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/FilterRule.vue')),
+  'Globals': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/Globals.vue')),
+  'HistoryButtons': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/HistoryButtons.vue')),
+  'ImagePreview': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/ImagePreview.vue')),
+  'InputError': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/InputError.vue')),
+  'LegalLinks': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/LegalLinks.vue')),
+  'LoadingIndicator': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/LoadingIndicator.vue')),
+  'Logo': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/Logo.vue')),
+  'LogoFull': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/LogoFull.vue')),
+  'MediaBreadcrumbs': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/MediaBreadcrumbs.vue')),
+  'MediaDirectoryPopup': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/MediaDirectoryPopup.vue')),
+  'MediaFileInput': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/MediaFileInput.vue')),
+  'MediaItemDirectory': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/MediaItemDirectory.vue')),
+  'MediaItemUpload': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/MediaItemUpload.vue')),
+  'MediaLibrary': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/MediaLibrary.vue')),
+  'MediaLibraryPopup': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/MediaLibraryPopup.vue')),
+  'MediaMovePopup': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/MediaMovePopup.vue')),
+  'MediaMovePopupItem': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/MediaMovePopupItem.vue')),
+  'MediaUploadPopup': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/MediaUploadPopup.vue')),
+  'MoreBlockOptionsPopup': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/MoreBlockOptionsPopup.vue')),
+  'MultiCollectionsOverview': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/MultiCollectionsOverview.vue')),
+  'Popup': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/Popup.vue')),
+  'QuickActions': () => defineAsyncComponent(() => import('../../../packages/data/components/DashboardSyncMicrosoftCollections.vue')),
+  'SearchMedia': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/SearchMedia.vue')),
+  'SearchRecords': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/SearchRecords.vue')),
+  'SingleCollectionsOverview': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/SingleCollectionsOverview.vue')),
+  'StringFieldPreview': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/StringFieldPreview.vue')),
+  'TableColumnsPopup': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/TableColumnsPopup.vue')),
+  'TablePagination': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/TablePagination.vue')),
+  'TableSorter': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/TableSorter.vue')),
+  'Toaster': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/Toaster.vue')),
+  'TranslationsFieldPreview': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/TranslationsFieldPreview.vue')),
+  'UnsavedChanges': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/UnsavedChanges.vue')),
+}
 
 export const blockFieldComponent = () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/fields/BlockField.vue'))
 export const blockFieldPreviewComponent = () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/field-previews/BlockFieldPreview.vue'))
@@ -250,6 +371,10 @@ export const tableAdditionalCollectionOptions = {
   'seo': null,
   'uploads': null,
   'users': null,
+  'episodes': null,
+  'events': null,
+  'posts': null,
+  'taxonomies': null,
 }
 
 export const recordAdditionalCollectionOptions = {
@@ -261,6 +386,10 @@ export const recordAdditionalCollectionOptions = {
   'seo': null,
   'uploads': null,
   'users': () => defineAsyncComponent(() => import('../../../node_modules/pruvious/dist/runtime/components/misc/LogoutUserFromAllSessions.vue')),
+  'episodes': null,
+  'events': null,
+  'posts': null,
+  'taxonomies': null,
 }
 
 export const customFieldLayoutComponents = {

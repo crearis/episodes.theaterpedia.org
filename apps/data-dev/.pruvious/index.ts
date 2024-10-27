@@ -47,8 +47,8 @@ export type TranslatableStringsDomain = 'default' | 'pruvious-dashboard' | 'pruv
 export type PublicTranslatableStringsDomain = 'default' | 'pruvious-dashboard'
 
 export interface TranslatableStringsTextKey {
-  'pruvious-dashboard': '$add after' | '$add before' | '$count $errors found' | '$item created' | '$item deleted' | '$item duplicated' | '$item link' | '$item updated' | '$timezone time' | '(current)' | '**301** - Moved permanently' | '**302** - Temporarily moved' | '**Allowed types:** $types' | '**Minimum height:** $height' | '**Minimum width:** $width' | 'A file with the name !!$name!! already exists in the destination folder' | 'A folder with this name already exists' | 'A string to append to the URL or path (e.g. **#anchor** or **?query**).' | 'Active' | 'Add' | 'Add $item' | 'Add block' | 'Add block after' | 'Add block before' | 'Add filter' | 'Add inner block' | 'Add link' | 'Add new folder' | 'All fields have been reset to their default values' | 'Alt text' | 'Append' | 'Apply' | 'At least one column must be selected' | 'Block' | 'Block formats' | 'Blocks' | 'Cache cleared successfully' | 'Cancel' | 'Change' | 'Change icon' | 'Changes that you made may not be saved.' | 'Choose $item' | 'Clear' | 'Clear cache' | 'Clear filters' | 'Clear selection' | 'Click to dismiss' | 'Close' | 'Confirm to !!delete!!' | 'Confirm to **move** the selected $selection to **$directory**' | 'Contains (case-insensitive)' | 'Content copied' | 'Continue' | 'Convert block to preset' | 'Convert to preset' | 'Coordinated Universal Time (UTC)' | 'Copied' | 'Copy' | 'Copy link to clipboard' | 'Create' | 'Create account' | 'Create new $item' | 'Create translation' | 'Custom target' | 'Cut' | 'Dashboard' | 'Delete' | 'Delete $count $items' | 'Deleted $count $items' | 'Description' | 'Deselect' | 'Deselect $item' | 'Desynchronize values' | 'Detach preset' | 'Determines the user\'s login access to the CMS.' | 'Disable selection' | 'Do you want to select all $count $items?' | 'Does not contain (case-insensitive)' | 'Draft URL' | 'Drop files here to upload' | 'Duplicate' | 'Edit' | 'Edit $item' | 'Edit alt text' | 'Edit columns' | 'Edit file' | 'Edit filters' | 'Edit link' | 'Edit translation' | 'Element' | 'Email' | 'Enable selection' | 'Ends with (case-insensitive)' | 'Enter alt text...' | 'Enter full screen' | 'Equal to' | 'Equal to (case-insensitive)' | 'Exit full screen' | 'File deleted' | 'File updated' | 'Files' | 'Filter $items' | 'Filtered results' | 'First name' | 'Folder created' | 'Folder deleted' | 'Folder is empty' | 'Folder renamed' | 'Folders' | 'Go to dashboard' | 'Go to page $page' | 'Go to start page' | 'Greater than' | 'Greater than or equal to' | 'Hide password' | 'Hyperlink' | 'Inactive' | 'Inline formats' | 'Invalid URL' | 'Invalid URL path' | 'Invalid link' | 'Keyboard shortcuts for blocks are active' | 'Language' | 'Last name' | 'Leave' | 'Less than' | 'Less than or equal to' | 'Library' | 'Library is empty' | 'Load more' | 'Log out' | 'Log out from all other sessions' | 'Log out user from all active sessions' | 'Media' | 'Media library' | 'Mirror content to this translation' | 'More options' | 'Move' | 'Move $count $items' | 'Move $count $items to' | 'Move down' | 'Move up' | 'Moved $count $items' | 'My profile' | 'Name' | 'New name' | 'Next page' | 'No' | 'No $items found' | 'No $items matching the current filter were found' | 'No blocks found' | 'No fields to display' | 'No icons found' | 'Not equal to' | 'Open' | 'Open $item' | 'Open $item in new tab' | 'Open in new tab' | 'Open preview in new tab' | 'Open root folder' | 'Password' | 'Paste' | 'Paste after' | 'Paste block from clipboard' | 'Please ensure all block fields are valid before converting the block to a preset' | 'Preset detached' | 'Preview' | 'Previous page' | 'Profile updated' | 'Public URL' | 'Publish' | 'Redirects to' | 'Redo (($count))' | 'Relationship (rel)' | 'Reload preview' | 'Remember me' | 'Remove' | 'Rename' | 'Rename folder' | 'Replace' | 'Required' | 'Restore defaults' | 'Root folder' | 'Save' | 'Save draft' | 'Search $items...' | 'Search blocks...' | 'Search icons...' | 'Search media...' | 'Search results for:' | 'Select' | 'Select $item' | 'Select from media library' | 'Select icon' | 'Show all $items' | 'Show password' | 'Showing $from to $to of $total $items' | 'Sign in' | 'Some filters are not displayed and are omitted from the user interface' | 'Sort in ascending order' | 'Sort in descending order' | 'Starts with (case-insensitive)' | 'Status' | 'Synchronize values' | 'Target' | 'Test path or URL' | 'The $item does not exist' | 'The **$language** translation of this $item does not exist. Do you want to create it?' | 'The **rel** attribute specifies the relationship between the current document and the linked document.' | 'The block **$block** cannot be pasted here' | 'The block has been converted into a preset' | 'The default **alt** attribute value for the image' | 'The file **$file** exceeds the upload limit of $limit' | 'The filename without the extension' | 'The filter in the query string cannot be displayed in the user interface.' | 'The folder name must be lowercase and URL-friendly' | 'The page you\'re looking for doesn\'t exist.' | 'The user has been logged out from all active sessions' | 'There are no compatible blocks that can be added to the selected slot' | 'There are no folders where the selected $selection can be moved to' | 'This action will overwrite the content in the **$language** translation.' | 'This field cannot be displayed in the UI' | 'This field is required' | 'Translation created' | 'Undo (($count))' | 'Untitled' | 'Update' | 'Update alt text' | 'Upload' | 'Upload file(s)' | 'Upload limit is $limit' | 'Uploaded $count $files' | 'View' | 'View $item' | 'View file' | 'View translation' | 'Yes' | 'You don\'t have permission to access this page.' | 'You have been logged out from all other sessions' | 'You must first allow the app access to the clipboard' | 'and' | 'false' | 'file' | 'files' | 'folder' | 'folders' | 'installWelcomeMessage' | 'item' | 'items' | 'or' | 'true'
-  'pruvious-server': '$item #$id does not exist and cannot be linked' | 'A page with this path already exists' | 'A preset with this name already exists' | 'A preview with this token already exists' | 'At least one field must be included in the \'select\' parameter' | 'Cannot use operator \'$operator\' on field $field' | 'Cannot use value \'$value\' for operation \'$operation\' on field \'$field\'' | 'DRAFT' | 'Forbidden due to insufficient permissions' | 'Incorrect credentials' | 'Invalid \'$name\' unit' | 'Invalid JSON' | 'Invalid URL' | 'Invalid URL path' | 'Invalid collection' | 'Invalid email address' | 'Invalid input' | 'Invalid input name' | 'Invalid input type' | 'Invalid user ID' | 'Invalid value' | 'Invalid value: \'$value\'' | 'Missing \'from\' language parameter' | 'Missing \'to\' language parameter' | 'Missing \'to\' parameter' | 'PREVIEW' | 'Page not found' | 'Pruvious is already installed' | 'Resource not found' | 'Selected values must be strings' | 'Source and target language cannot be the same' | 'The $item does not exist' | 'The \'$name\' value must be greater than or equal to $min' | 'The \'$name\' value must be less than or equal to $max' | 'The \'$name\' value must be numeric' | 'The \'limit\' parameter must be a non-negative integer' | 'The \'offset\' parameter must be a non-negative integer' | 'The \'page\' parameter must be a positive integer' | 'The \'page\' parameter requires either \'perPage\' or \'limit\' to be present' | 'The \'perPage\' parameter must be a positive integer' | 'The \'populate\' parameter must be a booleanish value' | 'The \'where\' parameter is not valid' | 'The block \'$block\' is not allowed as a root block in the layout \'$layout\'' | 'The block \'$block\' is not allowed in the layout \'$layout\'' | 'The directory must be a URL-safe string' | 'The field \'$field\' cannot be queried' | 'The field \'$field\' does not exist' | 'The file extension cannot be changed' | 'The file path must be unique' | 'The file type must be one of the following: $types' | 'The filename must be a URL-safe string' | 'The filename must not end with a period' | 'The icon does not exist' | 'The icon is not allowed for this field' | 'The image type must be one of the following: $types' | 'The input cannot have more than $count $decimals' | 'The input must be a multiple of $interval between $min and $max' | 'The input must be an integer' | 'The input must be greater than or equal to $min' | 'The input must be less than or equal to $max' | 'The inputs cannot have more than $count $decimals' | 'The inputs must be a multiple of $interval between $min and $max' | 'The inputs must be greater than or equal to $min' | 'The inputs must be integers' | 'The inputs must be less than or equal to $max' | 'The job is not defined' | 'The language code \'$language\' is not supported' | 'The maximum allowable file size is $size' | 'The maximum range between the inputs is $maxRange' | 'The minimum allowed image height is $min pixels' | 'The minimum allowed image width is $min pixels' | 'The minimum range between the inputs is $minRange' | 'The operator \'$operator\' is not valid' | 'The order direction \'$direction\' is not valid' | 'The page path must be a URL-safe string' | 'The password must be at least 8 characters long' | 'The path must start with a slash (\'/\')' | 'The preview token must be a URL-safe string' | 'The repeater must have at least $count $entries' | 'The repeater must not exceed $count $entries' | 'The request body must be an object with key-value pairs' | 'The request body must be either an object with key-value pairs or an array containing key-value objects' | 'The requested job does not exist' | 'The requested job no longer exists' | 'The search structure \'$structure\' does not exist' | 'The second value cannot be less than the first value' | 'The target must be a path starting with a slash (\'/\') or a URL starting with \'http\'' | 'The translation already exists' | 'The upload is not an image' | 'The value must be a lowercase string' | 'This block is not allowed in the slot \'$slot\'' | 'This collection cannot be previewed' | 'This collection does not support translations' | 'This collection is not searchable' | 'This field is read-only' | 'This field is required' | 'This field must be present' | 'This field must be unique' | 'This method is not supported' | 'Unable to determine the request operation' | 'Unauthorized' | 'Unauthorized due to either invalid credentials or missing authentication' | 'Unknown collection name: \'$collection\'' | 'Unrecognized block name' | 'Unrecognized field name' | 'Unrecognized slot name' | 'Using both \'page\' and \'offset\' parameters simultaneously is not permitted' | 'Using both \'perPage\' and \'limit\' parameters simultaneously is not permitted' | 'You are not authorized to change passwords for admin users' | 'You are not authorized to create admin users' | 'You are not authorized to deactivate admin users' | 'You are not authorized to delete admin users' | 'You are not authorized to demote admin users' | 'You are not authorized to modify the email addresses of admin users' | 'You are not authorized to promote users to admin status' | 'You cannot delete your own user account' | 'You don\'t have the necessary permissions to $operate $record' | 'create' | 'delete' | 'manage' | 'read' | 'update' | 'validate'
+  'pruvious-dashboard': '$add after' | '$add before' | '$count $errors found' | '$item created' | '$item deleted' | '$item duplicated' | '$item link' | '$item updated' | '$timezone time' | '(current)' | '**301** - Moved permanently' | '**302** - Temporarily moved' | '**Allowed types:** $types' | '**Minimum height:** $height' | '**Minimum width:** $width' | 'A file with the name !!$name!! already exists in the destination folder' | 'A folder with this name already exists' | 'A string to append to the URL or path (e.g. **#anchor** or **?query**).' | 'Active' | 'Add' | 'Add $item' | 'Add block' | 'Add block after' | 'Add block before' | 'Add filter' | 'Add inner block' | 'Add link' | 'Add new folder' | 'All fields have been reset to their default values' | 'Alt text' | 'Append' | 'Apply' | 'At least one column must be selected' | 'Block' | 'Block formats' | 'Blocks' | 'Cache cleared successfully' | 'Cancel' | 'Change' | 'Change icon' | 'Changes that you made may not be saved.' | 'Choose $item' | 'Clear' | 'Clear cache' | 'Clear filters' | 'Clear selection' | 'Click to dismiss' | 'Close' | 'Confirm to !!delete!!' | 'Confirm to **move** the selected $selection to **$directory**' | 'Contains (case-insensitive)' | 'Content copied' | 'Continue' | 'Convert block to preset' | 'Convert to preset' | 'Coordinated Universal Time (UTC)' | 'Copied' | 'Copy' | 'Copy link to clipboard' | 'Create' | 'Create account' | 'Create new $item' | 'Create translation' | 'Custom target' | 'Cut' | 'Dashboard' | 'Delete' | 'Delete $count $items' | 'Deleted $count $items' | 'Description' | 'Deselect' | 'Deselect $item' | 'Desynchronize values' | 'Detach preset' | 'Determines the user\'s login access to the CMS.' | 'Disable selection' | 'Do you want to select all $count $items?' | 'Does not contain (case-insensitive)' | 'Draft URL' | 'Drop files here to upload' | 'Duplicate' | 'Edit' | 'Edit $item' | 'Edit alt text' | 'Edit columns' | 'Edit file' | 'Edit filters' | 'Edit link' | 'Edit translation' | 'Element' | 'Email' | 'Enable selection' | 'Ends with (case-insensitive)' | 'Enter alt text...' | 'Enter full screen' | 'Equal to' | 'Equal to (case-insensitive)' | 'Exit full screen' | 'File deleted' | 'File updated' | 'Files' | 'Filter $items' | 'Filtered results' | 'First name' | 'Folder created' | 'Folder deleted' | 'Folder is empty' | 'Folder renamed' | 'Folders' | 'Go to dashboard' | 'Go to page $page' | 'Go to start page' | 'Greater than' | 'Greater than or equal to' | 'Hide password' | 'Hyperlink' | 'Inactive' | 'Inline formats' | 'Invalid URL' | 'Invalid URL path' | 'Invalid link' | 'Keyboard shortcuts for blocks are active' | 'Language' | 'Last name' | 'Leave' | 'Less than' | 'Less than or equal to' | 'Library' | 'Library is empty' | 'Load more' | 'Log out' | 'Log out from all other sessions' | 'Log out user from all active sessions' | 'Media' | 'Media library' | 'Mirror content to this translation' | 'More options' | 'Move' | 'Move $count $items' | 'Move $count $items to' | 'Move down' | 'Move up' | 'Moved $count $items' | 'My profile' | 'Name' | 'New name' | 'Next page' | 'No' | 'No $items found' | 'No $items matching the current filter were found' | 'No blocks found' | 'No fields to display' | 'No icons found' | 'Not equal to' | 'Open' | 'Open $item' | 'Open $item in new tab' | 'Open in new tab' | 'Open preview in new tab' | 'Open root folder' | 'Password' | 'Paste' | 'Paste after' | 'Paste block from clipboard' | 'Please ensure all block fields are valid before converting the block to a preset' | 'Preset detached' | 'Preview' | 'Previous page' | 'Profile updated' | 'Public URL' | 'Publish' | 'Redirects to' | 'Redo (($count))' | 'Relationship (rel)' | 'Reload preview' | 'Remember me' | 'Remove' | 'Rename' | 'Rename folder' | 'Replace' | 'Required' | 'Restore defaults' | 'Root folder' | 'Save' | 'Save draft' | 'Search $items...' | 'Search blocks...' | 'Search icons...' | 'Search media...' | 'Search results for:' | 'Select' | 'Select $item' | 'Select from media library' | 'Select icon' | 'Show all $items' | 'Show password' | 'Showing $from to $to of $total $items' | 'Sign in' | 'Some filters are not displayed and are omitted from the user interface' | 'Sort in ascending order' | 'Sort in descending order' | 'Starts with (case-insensitive)' | 'Status' | 'Synchronize values' | 'Target' | 'Test path or URL' | 'The $item does not exist' | 'The **$language** translation of this $item does not exist. Do you want to create it?' | 'The **rel** attribute specifies the relationship between the current document and the linked document.' | 'The block **$block** cannot be pasted here' | 'The block has been converted into a preset' | 'The default **alt** attribute value for the image' | 'The file **$file** exceeds the upload limit of $limit' | 'The file does not meet the requirements' | 'The filename without the extension' | 'The filter in the query string cannot be displayed in the user interface.' | 'The folder name must be lowercase and URL-friendly' | 'The image does not meet the requirements' | 'The page you\'re looking for doesn\'t exist.' | 'The user has been logged out from all active sessions' | 'There are no compatible blocks that can be added to the selected slot' | 'There are no folders where the selected $selection can be moved to' | 'This action will overwrite the content in the **$language** translation.' | 'This field cannot be displayed in the UI' | 'This field is required' | 'Translation created' | 'Undo (($count))' | 'Untitled' | 'Update' | 'Update alt text' | 'Upload' | 'Upload file(s)' | 'Upload limit is $limit' | 'Uploaded $count $files' | 'View' | 'View $item' | 'View file' | 'View translation' | 'Yes' | 'You don\'t have permission to access this page.' | 'You have been logged out from all other sessions' | 'You must first allow the app access to the clipboard' | 'and' | 'false' | 'file' | 'files' | 'folder' | 'folders' | 'installWelcomeMessage' | 'item' | 'items' | 'or' | 'true'
+  'pruvious-server': '$item #$id does not exist and cannot be linked' | 'A page with this path already exists' | 'A preset with this name already exists' | 'A preview with this token already exists' | 'At least one field must be included in the \'select\' parameter' | 'Cannot use operator \'$operator\' on field $field' | 'Cannot use value \'$value\' for operation \'$operation\' on field \'$field\'' | 'DRAFT' | 'Forbidden due to insufficient permissions' | 'Incorrect credentials' | 'Invalid \'$name\' unit' | 'Invalid JSON' | 'Invalid URL' | 'Invalid URL path' | 'Invalid collection' | 'Invalid email address' | 'Invalid input' | 'Invalid input name' | 'Invalid input type' | 'Invalid token' | 'Invalid user ID' | 'Invalid value' | 'Invalid value: \'$value\'' | 'Missing \'from\' language parameter' | 'Missing \'to\' language parameter' | 'Missing \'to\' parameter' | 'PREVIEW' | 'Page not found' | 'Pruvious is already installed' | 'Resource not found' | 'Selected values must be strings' | 'Source and target language cannot be the same' | 'The $item does not exist' | 'The \'$name\' value must be greater than or equal to $min' | 'The \'$name\' value must be less than or equal to $max' | 'The \'$name\' value must be numeric' | 'The \'limit\' parameter must be a non-negative integer' | 'The \'offset\' parameter must be a non-negative integer' | 'The \'page\' parameter must be a positive integer' | 'The \'page\' parameter requires either \'perPage\' or \'limit\' to be present' | 'The \'perPage\' parameter must be a positive integer' | 'The \'populate\' parameter must be a booleanish value' | 'The \'where\' parameter is not valid' | 'The block \'$block\' is not allowed as a root block in the layout \'$layout\'' | 'The block \'$block\' is not allowed in the layout \'$layout\'' | 'The directory must be a URL-safe string' | 'The field \'$field\' cannot be queried' | 'The field \'$field\' does not exist' | 'The file extension cannot be changed' | 'The file path must be unique' | 'The file type must be one of the following: $types' | 'The filename must be a URL-safe string' | 'The filename must not end with a period' | 'The icon does not exist' | 'The icon is not allowed for this field' | 'The image type must be one of the following: $types' | 'The input cannot have more than $count $decimals' | 'The input must be a multiple of $interval between $min and $max' | 'The input must be an integer' | 'The input must be greater than or equal to $min' | 'The input must be less than or equal to $max' | 'The inputs cannot have more than $count $decimals' | 'The inputs must be a multiple of $interval between $min and $max' | 'The inputs must be greater than or equal to $min' | 'The inputs must be integers' | 'The inputs must be less than or equal to $max' | 'The job is not defined' | 'The language code \'$language\' is not supported' | 'The maximum allowable file size is $size' | 'The maximum range between the inputs is $maxRange' | 'The minimum allowed image height is $min pixels' | 'The minimum allowed image width is $min pixels' | 'The minimum range between the inputs is $minRange' | 'The operator \'$operator\' is not valid' | 'The order direction \'$direction\' is not valid' | 'The page path must be a URL-safe string' | 'The password must be at least 8 characters long' | 'The path must start with a slash (\'/\')' | 'The preview token must be a URL-safe string' | 'The repeater must have at least $count $entries' | 'The repeater must not exceed $count $entries' | 'The request body must be an object with key-value pairs' | 'The request body must be either an object with key-value pairs or an array containing key-value objects' | 'The requested job does not exist' | 'The requested job no longer exists' | 'The search structure \'$structure\' does not exist' | 'The second value cannot be less than the first value' | 'The target must be a path starting with a slash (\'/\') or a URL starting with \'http\'' | 'The translation already exists' | 'The upload is not an image' | 'The value must be a lowercase string' | 'This block is not allowed in the slot \'$slot\'' | 'This collection cannot be previewed' | 'This collection does not support translations' | 'This collection is not searchable' | 'This field is read-only' | 'This field is required' | 'This field must be present' | 'This field must be unique' | 'This method is not supported' | 'Unable to determine the request operation' | 'Unauthorized' | 'Unauthorized due to either invalid credentials or missing authentication' | 'Unknown collection name: \'$collection\'' | 'Unrecognized block name' | 'Unrecognized field name' | 'Unrecognized slot name' | 'Using both \'page\' and \'offset\' parameters simultaneously is not permitted' | 'Using both \'perPage\' and \'limit\' parameters simultaneously is not permitted' | 'You are not authorized to change passwords for admin users' | 'You are not authorized to create admin users' | 'You are not authorized to deactivate admin users' | 'You are not authorized to delete admin users' | 'You are not authorized to demote admin users' | 'You are not authorized to modify the email addresses of admin users' | 'You are not authorized to promote users to admin status' | 'You cannot delete your own user account' | 'You don\'t have the necessary permissions to $operate $record' | 'create' | 'delete' | 'manage' | 'read' | 'update' | 'validate'
   'default': never
 }
 
@@ -1053,6 +1053,22 @@ export interface StandardFieldOptions {
     tooltips?: boolean
     
     /**
+     * Indicates whether to allow adding custom values dynamically.
+     *
+     * This will also set the field type to `string[]`.
+     *
+     * @default false
+     */
+    allowCustomValues?: boolean
+    
+    /**
+     * Indicates whether to clear the search input after selecting a value.
+     *
+     * @default false
+     */
+    clearInputOnPick?: boolean
+    
+    /**
      * The number of visible suggestion choices in the dropdown list (must be less than 30).
      */
     visibleSuggestions?: number
@@ -1451,7 +1467,7 @@ export interface StandardFieldOptions {
      *
      * @default { directory: true, filename: true }
      */
-    fields?: Record<string, true>
+    fields?: Record<string, true> | string[]
     
     /**
      * Specifies whether to populate the fields of the 'uploads' collection.
@@ -1914,7 +1930,7 @@ export interface StandardFieldOptions {
      *
      * @default { id: true }
      */
-    fields?: Record<string, true>
+    fields?: Record<string, true> | string[]
     
     /**
      * Specifies whether to populate the fields of the selected collection.
@@ -2003,7 +2019,7 @@ export interface StandardFieldOptions {
      *
      * @default { id: true }
      */
-    fields?: Record<string, true>
+    fields?: Record<string, true> | string[]
     
     /**
      * Specifies whether to populate the fields of the selected collection.
@@ -2823,20 +2839,20 @@ export interface FieldOptions {
   'time': StandardFieldOptions['time']
 }
 
-import { vueField as blockField } from '../../../node_modules/pruvious/dist/runtime/fields/standard/block.field'
+import { vueField as blockField } from '../../../node_modules/pruvious/dist/runtime/fields/standard/block.field.js'
 export { blockField }
 
-import { vueSubfield as blockSubfield } from '../../../node_modules/pruvious/dist/runtime/fields/standard/block.field'
+import { vueSubfield as blockSubfield } from '../../../node_modules/pruvious/dist/runtime/fields/standard/block.field.js'
 export { blockSubfield }
 
 export function blockFieldTrap(options?: any, additional?: any): BlockField {
   return { type: 'block', options: options || {}, additional, __fromDefineProps: true } as any
 }
 
-import { vueField as buttonGroupField } from '../../../node_modules/pruvious/dist/runtime/fields/standard/button-group.field'
+import { vueField as buttonGroupField } from '../../../node_modules/pruvious/dist/runtime/fields/standard/button-group.field.js'
 export { buttonGroupField }
 
-import { vueSubfield as buttonGroupSubfield } from '../../../node_modules/pruvious/dist/runtime/fields/standard/button-group.field'
+import { vueSubfield as buttonGroupSubfield } from '../../../node_modules/pruvious/dist/runtime/fields/standard/button-group.field.js'
 export { buttonGroupSubfield }
 
 export function buttonGroupFieldTrap(options?: any, additional?: any): ButtonGroupField {
@@ -2875,20 +2891,20 @@ export function checkboxFieldTrap(options?: any, additional?: any): CheckboxFiel
   return { type: 'checkbox', options: options || {}, additional, __fromDefineProps: true } as any
 }
 
-import { vueField as checkboxesField } from '../../../node_modules/pruvious/dist/runtime/fields/standard/checkboxes.field'
+import { vueField as checkboxesField } from '../../../node_modules/pruvious/dist/runtime/fields/standard/checkboxes.field.js'
 export { checkboxesField }
 
-import { vueSubfield as checkboxesSubfield } from '../../../node_modules/pruvious/dist/runtime/fields/standard/checkboxes.field'
+import { vueSubfield as checkboxesSubfield } from '../../../node_modules/pruvious/dist/runtime/fields/standard/checkboxes.field.js'
 export { checkboxesSubfield }
 
 export function checkboxesFieldTrap(options?: any, additional?: any): CheckboxesField {
   return { type: 'checkboxes', options: options || {}, additional, __fromDefineProps: true } as any
 }
 
-import { vueField as chipsField } from '../../../node_modules/pruvious/dist/runtime/fields/standard/chips.field'
+import { vueField as chipsField } from '../../../node_modules/pruvious/dist/runtime/fields/standard/chips.field.js'
 export { chipsField }
 
-import { vueSubfield as chipsSubfield } from '../../../node_modules/pruvious/dist/runtime/fields/standard/chips.field'
+import { vueSubfield as chipsSubfield } from '../../../node_modules/pruvious/dist/runtime/fields/standard/chips.field.js'
 export { chipsSubfield }
 
 export function chipsFieldTrap(options?: any, additional?: any): ChipsField {
@@ -3055,10 +3071,10 @@ export function editorFieldTrap(options?: any, additional?: any): EditorField {
   return { type: 'editor', options: options || {}, additional, __fromDefineProps: true } as any
 }
 
-import { vueField as fileField } from '../../../node_modules/pruvious/dist/runtime/fields/standard/file.field'
+import { vueField as fileField } from '../../../node_modules/pruvious/dist/runtime/fields/standard/file.field.js'
 export { fileField }
 
-import { vueSubfield as fileSubfield } from '../../../node_modules/pruvious/dist/runtime/fields/standard/file.field'
+import { vueSubfield as fileSubfield } from '../../../node_modules/pruvious/dist/runtime/fields/standard/file.field.js'
 export { fileSubfield }
 
 export function fileFieldTrap(options?: any, additional?: any): FileField {
@@ -3225,50 +3241,50 @@ export function rangeFieldTrap(options?: any, additional?: any): RangeField {
   return { type: 'range', options: options || {}, additional, __fromDefineProps: true } as any
 }
 
-import { vueField as recordField } from '../../../node_modules/pruvious/dist/runtime/fields/standard/record.field'
+import { vueField as recordField } from '../../../node_modules/pruvious/dist/runtime/fields/standard/record.field.js'
 export { recordField }
 
-import { vueSubfield as recordSubfield } from '../../../node_modules/pruvious/dist/runtime/fields/standard/record.field'
+import { vueSubfield as recordSubfield } from '../../../node_modules/pruvious/dist/runtime/fields/standard/record.field.js'
 export { recordSubfield }
 
 export function recordFieldTrap(options?: any, additional?: any): RecordField {
   return { type: 'record', options: options || {}, additional, __fromDefineProps: true } as any
 }
 
-import { vueField as recordsField } from '../../../node_modules/pruvious/dist/runtime/fields/standard/records.field'
+import { vueField as recordsField } from '../../../node_modules/pruvious/dist/runtime/fields/standard/records.field.js'
 export { recordsField }
 
-import { vueSubfield as recordsSubfield } from '../../../node_modules/pruvious/dist/runtime/fields/standard/records.field'
+import { vueSubfield as recordsSubfield } from '../../../node_modules/pruvious/dist/runtime/fields/standard/records.field.js'
 export { recordsSubfield }
 
 export function recordsFieldTrap(options?: any, additional?: any): RecordsField {
   return { type: 'records', options: options || {}, additional, __fromDefineProps: true } as any
 }
 
-import { vueField as repeaterField } from '../../../node_modules/pruvious/dist/runtime/fields/standard/repeater.field'
+import { vueField as repeaterField } from '../../../node_modules/pruvious/dist/runtime/fields/standard/repeater.field.js'
 export { repeaterField }
 
-import { vueSubfield as repeaterSubfield } from '../../../node_modules/pruvious/dist/runtime/fields/standard/repeater.field'
+import { vueSubfield as repeaterSubfield } from '../../../node_modules/pruvious/dist/runtime/fields/standard/repeater.field.js'
 export { repeaterSubfield }
 
 export function repeaterFieldTrap(options?: any, additional?: any): RepeaterField {
   return { type: 'repeater', options: options || {}, additional, __fromDefineProps: true } as any
 }
 
-import { vueField as selectField } from '../../../node_modules/pruvious/dist/runtime/fields/standard/select.field'
+import { vueField as selectField } from '../../../node_modules/pruvious/dist/runtime/fields/standard/select.field.js'
 export { selectField }
 
-import { vueSubfield as selectSubfield } from '../../../node_modules/pruvious/dist/runtime/fields/standard/select.field'
+import { vueSubfield as selectSubfield } from '../../../node_modules/pruvious/dist/runtime/fields/standard/select.field.js'
 export { selectSubfield }
 
 export function selectFieldTrap(options?: any, additional?: any): SelectField {
   return { type: 'select', options: options || {}, additional, __fromDefineProps: true } as any
 }
 
-import { vueField as sizeField } from '../../../node_modules/pruvious/dist/runtime/fields/standard/size.field'
+import { vueField as sizeField } from '../../../node_modules/pruvious/dist/runtime/fields/standard/size.field.js'
 export { sizeField }
 
-import { vueSubfield as sizeSubfield } from '../../../node_modules/pruvious/dist/runtime/fields/standard/size.field'
+import { vueSubfield as sizeSubfield } from '../../../node_modules/pruvious/dist/runtime/fields/standard/size.field.js'
 export { sizeSubfield }
 
 export function sizeFieldTrap(options?: any, additional?: any): SizeField {
@@ -3403,10 +3419,10 @@ export function textAreaFieldTrap(options?: any, additional?: any): TextAreaFiel
   return { type: 'text-area', options: options || {}, additional, __fromDefineProps: true } as any
 }
 
-import { vueField as textField } from '../../../node_modules/pruvious/dist/runtime/fields/standard/text.field'
+import { vueField as textField } from '../../../node_modules/pruvious/dist/runtime/fields/standard/text.field.js'
 export { textField }
 
-import { vueSubfield as textSubfield } from '../../../node_modules/pruvious/dist/runtime/fields/standard/text.field'
+import { vueSubfield as textSubfield } from '../../../node_modules/pruvious/dist/runtime/fields/standard/text.field.js'
 export { textSubfield }
 
 export function textFieldTrap(options?: any, additional?: any): TextField {
@@ -3481,7 +3497,7 @@ import type { BlockDefinition, Slot } from '../../../node_modules/pruvious/dist/
 import { defineBlock } from '../../../node_modules/pruvious/dist/runtime/blocks/block.definition'
 export { type BlockDefinition, type Slot, defineBlock }
 
-export type BlockName = 'Preset'
+export type BlockName = 'Button' | 'Hero' | 'PageIntro' | 'Preset' | 'Prose' | 'Video'
 
 export const icons = []
 
@@ -3493,16 +3509,16 @@ export { type LayoutDefinition }
 import { defineLayout } from '../../../node_modules/pruvious/dist/runtime/layouts/layout.definition'
 export { defineLayout }
 
-export type LayoutName = 'account' | 'auth' | 'checkout' | 'default' | 'dev' | 'order'
+export type LayoutName = 'account' | 'auth' | 'blog' | 'checkout' | 'default' | 'dev' | 'episode' | 'order'
 
-export type CollectionName = 'pages' | 'presets' | 'previews' | 'redirects' | 'roles' | 'seo' | 'uploads' | 'users'
-export const collectionNames = ['pages', 'presets', 'previews', 'redirects', 'roles', 'seo', 'uploads', 'users']
+export type CollectionName = 'episodes' | 'events' | 'pages' | 'posts' | 'presets' | 'previews' | 'redirects' | 'roles' | 'seo' | 'taxonomies' | 'uploads' | 'users'
+export const collectionNames = ['pages', 'presets', 'previews', 'redirects', 'roles', 'seo', 'uploads', 'users', 'episodes', 'events', 'posts', 'taxonomies']
 
 export type StandardCollectionName = 'pages' | 'presets' | 'previews' | 'redirects' | 'roles' | 'seo' | 'uploads' | 'users'
 export const standardCollectionNames = ['pages', 'presets', 'previews', 'redirects', 'roles', 'seo', 'uploads', 'users']
 
-export type MultiCollectionName = 'pages' | 'presets' | 'previews' | 'roles' | 'uploads' | 'users'
-export const multiCollectionNames = ['pages', 'presets', 'previews', 'roles', 'uploads', 'users']
+export type MultiCollectionName = 'episodes' | 'events' | 'pages' | 'posts' | 'presets' | 'previews' | 'roles' | 'taxonomies' | 'uploads' | 'users'
+export const multiCollectionNames = ['pages', 'presets', 'previews', 'roles', 'uploads', 'users', 'episodes', 'events', 'posts', 'taxonomies']
 
 export type SingleCollectionName = 'redirects' | 'seo'
 export const singleCollectionNames = ['redirects', 'seo']
@@ -3510,23 +3526,23 @@ export const singleCollectionNames = ['redirects', 'seo']
 export type UploadsCollectionName = 'uploads'
 export const uploadsCollectionName = 'uploads'
 
-export type TranslatableCollectionName = 'pages' | 'presets' | 'seo'
+export type TranslatableCollectionName = 'episodes' | 'events' | 'pages' | 'posts' | 'presets' | 'seo'
 
-export type SearchableCollectionName = 'pages' | 'presets' | 'roles' | 'uploads' | 'users'
+export type SearchableCollectionName = 'episodes' | 'events' | 'pages' | 'posts' | 'presets' | 'roles' | 'uploads' | 'users'
 
 export type PublicReadCollectionName = never
 
-import type { CollectionGuard, CollectionGuardContext, CollectionSearch, ContentBuilder, DuplicateContext, FieldLayout, MirrorTranslationContext, PublicPagesOptions, ResolvedCollectionDefinition } from '../../../node_modules/pruvious/dist/runtime/collections/collection.definition'
-export { type CollectionGuard, type CollectionGuardContext, type CollectionSearch, type ContentBuilder, type DuplicateContext, type FieldLayout, type MirrorTranslationContext, type PublicPagesOptions, type ResolvedCollectionDefinition }
+import type { CollectionDefinition, CollectionGuard, CollectionGuardContext, CollectionSearch, ContentBuilder, DuplicateContext, FieldLayout, MirrorTranslationContext, MultiEntryCollectionDefinition, PublicPagesOptions, ResolvedCollectionDefinition, SingleEntryCollectionDefinition } from '../../../node_modules/pruvious/dist/runtime/collections/collection.definition'
+export { type CollectionDefinition, type CollectionGuard, type CollectionGuardContext, type CollectionSearch, type ContentBuilder, type DuplicateContext, type FieldLayout, type MirrorTranslationContext, type MultiEntryCollectionDefinition, type PublicPagesOptions, type ResolvedCollectionDefinition, type SingleEntryCollectionDefinition }
 import type { Image, ImageSource, OptimizedImage, OptimizedImageSource } from '../../../node_modules/pruvious/dist/runtime/collections/images'
 export { type Image, type ImageSource, type OptimizedImage, type OptimizedImageSource }
 import { defineCollection } from '../../../node_modules/pruvious/dist/runtime/collections/collection.definition'
 export { defineCollection }
 export type { PaginateResult } from '../../../node_modules/pruvious/dist/runtime/collections/query-builder'
 
-export type CollectionCapability = 'collection-pages-create' | 'collection-pages-create-many' | 'collection-pages-delete' | 'collection-pages-delete-many' | 'collection-pages-read' | 'collection-pages-read-many' | 'collection-pages-update' | 'collection-pages-update-many' | 'collection-presets-create' | 'collection-presets-create-many' | 'collection-presets-delete' | 'collection-presets-delete-many' | 'collection-presets-read' | 'collection-presets-read-many' | 'collection-presets-update' | 'collection-presets-update-many' | 'collection-previews-create' | 'collection-previews-create-many' | 'collection-previews-delete' | 'collection-previews-delete-many' | 'collection-previews-read' | 'collection-previews-read-many' | 'collection-previews-update' | 'collection-previews-update-many' | 'collection-redirects-read' | 'collection-redirects-update' | 'collection-roles-create' | 'collection-roles-create-many' | 'collection-roles-delete' | 'collection-roles-delete-many' | 'collection-roles-read' | 'collection-roles-read-many' | 'collection-roles-update' | 'collection-roles-update-many' | 'collection-seo-read' | 'collection-seo-update' | 'collection-uploads-create' | 'collection-uploads-create-many' | 'collection-uploads-delete' | 'collection-uploads-delete-many' | 'collection-uploads-read' | 'collection-uploads-read-many' | 'collection-uploads-update' | 'collection-uploads-update-many' | 'collection-users-create' | 'collection-users-create-many' | 'collection-users-delete' | 'collection-users-delete-many' | 'collection-users-read' | 'collection-users-read-many' | 'collection-users-update' | 'collection-users-update-many'
+export type CollectionCapability = 'collection-episodes-create' | 'collection-episodes-create-many' | 'collection-episodes-delete' | 'collection-episodes-delete-many' | 'collection-episodes-read' | 'collection-episodes-read-many' | 'collection-episodes-update' | 'collection-episodes-update-many' | 'collection-events-create' | 'collection-events-create-many' | 'collection-events-delete' | 'collection-events-delete-many' | 'collection-events-read' | 'collection-events-read-many' | 'collection-events-update' | 'collection-events-update-many' | 'collection-pages-create' | 'collection-pages-create-many' | 'collection-pages-delete' | 'collection-pages-delete-many' | 'collection-pages-read' | 'collection-pages-read-many' | 'collection-pages-update' | 'collection-pages-update-many' | 'collection-posts-create' | 'collection-posts-create-many' | 'collection-posts-delete' | 'collection-posts-delete-many' | 'collection-posts-read' | 'collection-posts-read-many' | 'collection-posts-update' | 'collection-posts-update-many' | 'collection-presets-create' | 'collection-presets-create-many' | 'collection-presets-delete' | 'collection-presets-delete-many' | 'collection-presets-read' | 'collection-presets-read-many' | 'collection-presets-update' | 'collection-presets-update-many' | 'collection-previews-create' | 'collection-previews-create-many' | 'collection-previews-delete' | 'collection-previews-delete-many' | 'collection-previews-read' | 'collection-previews-read-many' | 'collection-previews-update' | 'collection-previews-update-many' | 'collection-redirects-read' | 'collection-redirects-update' | 'collection-roles-create' | 'collection-roles-create-many' | 'collection-roles-delete' | 'collection-roles-delete-many' | 'collection-roles-read' | 'collection-roles-read-many' | 'collection-roles-update' | 'collection-roles-update-many' | 'collection-seo-read' | 'collection-seo-update' | 'collection-taxonomies-read' | 'collection-taxonomies-read-many' | 'collection-uploads-create' | 'collection-uploads-create-many' | 'collection-uploads-delete' | 'collection-uploads-delete-many' | 'collection-uploads-read' | 'collection-uploads-read-many' | 'collection-uploads-update' | 'collection-uploads-update-many' | 'collection-users-create' | 'collection-users-create-many' | 'collection-users-delete' | 'collection-users-delete-many' | 'collection-users-read' | 'collection-users-read-many' | 'collection-users-update' | 'collection-users-update-many'
 
-export const collectionCapabilities: CollectionCapability[] = ['collection-pages-create', 'collection-pages-create-many', 'collection-pages-read', 'collection-pages-read-many', 'collection-pages-update', 'collection-pages-update-many', 'collection-pages-delete', 'collection-pages-delete-many', 'collection-presets-create', 'collection-presets-create-many', 'collection-presets-read', 'collection-presets-read-many', 'collection-presets-update', 'collection-presets-update-many', 'collection-presets-delete', 'collection-presets-delete-many', 'collection-previews-create', 'collection-previews-create-many', 'collection-previews-read', 'collection-previews-read-many', 'collection-previews-update', 'collection-previews-update-many', 'collection-previews-delete', 'collection-previews-delete-many', 'collection-redirects-read', 'collection-redirects-update', 'collection-roles-create', 'collection-roles-create-many', 'collection-roles-read', 'collection-roles-read-many', 'collection-roles-update', 'collection-roles-update-many', 'collection-roles-delete', 'collection-roles-delete-many', 'collection-seo-read', 'collection-seo-update', 'collection-uploads-create', 'collection-uploads-create-many', 'collection-uploads-read', 'collection-uploads-read-many', 'collection-uploads-update', 'collection-uploads-update-many', 'collection-uploads-delete', 'collection-uploads-delete-many', 'collection-users-create', 'collection-users-create-many', 'collection-users-read', 'collection-users-read-many', 'collection-users-update', 'collection-users-update-many', 'collection-users-delete', 'collection-users-delete-many']
+export const collectionCapabilities: CollectionCapability[] = ['collection-pages-create', 'collection-pages-create-many', 'collection-pages-read', 'collection-pages-read-many', 'collection-pages-update', 'collection-pages-update-many', 'collection-pages-delete', 'collection-pages-delete-many', 'collection-presets-create', 'collection-presets-create-many', 'collection-presets-read', 'collection-presets-read-many', 'collection-presets-update', 'collection-presets-update-many', 'collection-presets-delete', 'collection-presets-delete-many', 'collection-previews-create', 'collection-previews-create-many', 'collection-previews-read', 'collection-previews-read-many', 'collection-previews-update', 'collection-previews-update-many', 'collection-previews-delete', 'collection-previews-delete-many', 'collection-redirects-read', 'collection-redirects-update', 'collection-roles-create', 'collection-roles-create-many', 'collection-roles-read', 'collection-roles-read-many', 'collection-roles-update', 'collection-roles-update-many', 'collection-roles-delete', 'collection-roles-delete-many', 'collection-seo-read', 'collection-seo-update', 'collection-uploads-create', 'collection-uploads-create-many', 'collection-uploads-read', 'collection-uploads-read-many', 'collection-uploads-update', 'collection-uploads-update-many', 'collection-uploads-delete', 'collection-uploads-delete-many', 'collection-users-create', 'collection-users-create-many', 'collection-users-read', 'collection-users-read-many', 'collection-users-update', 'collection-users-update-many', 'collection-users-delete', 'collection-users-delete-many', 'collection-episodes-create', 'collection-episodes-create-many', 'collection-episodes-read', 'collection-episodes-read-many', 'collection-episodes-update', 'collection-episodes-update-many', 'collection-episodes-delete', 'collection-episodes-delete-many', 'collection-events-create', 'collection-events-create-many', 'collection-events-read', 'collection-events-read-many', 'collection-events-update', 'collection-events-update-many', 'collection-events-delete', 'collection-events-delete-many', 'collection-posts-create', 'collection-posts-create-many', 'collection-posts-read', 'collection-posts-read-many', 'collection-posts-update', 'collection-posts-update-many', 'collection-posts-delete', 'collection-posts-delete-many', 'collection-taxonomies-read', 'collection-taxonomies-read-many']
 
 export interface CollectionFieldName {
   'pages': 'baseTitle' | 'blocks' | 'createdAt' | 'description' | 'draftToken' | 'id' | 'language' | 'layout' | 'metaTags' | 'path' | 'public' | 'publishDate' | 'sharingImage' | 'title' | 'translations' | 'updatedAt' | 'visible'
@@ -3537,6 +3553,10 @@ export interface CollectionFieldName {
   'seo': 'baseTitle' | 'baseTitlePosition' | 'baseUrl' | 'createdAt' | 'favicon' | 'id' | 'language' | 'logo' | 'metaTags' | 'scripts' | 'sharingImage' | 'socialMediaMeta' | 'titleSeparator' | 'updatedAt' | 'visible'
   'uploads': 'createdAt' | 'description' | 'directory' | 'filename' | 'height' | 'id' | 'language' | 'size' | 'translations' | 'type' | 'updatedAt' | 'width'
   'users': 'capabilities' | 'createdAt' | 'dashboardLanguage' | 'dateFormat' | 'email' | 'firstName' | 'id' | 'isActive' | 'isAdmin' | 'language' | 'lastName' | 'password' | 'role' | 'timeFormat' | 'translations' | 'updatedAt'
+  'episodes': 'baseTitle' | 'blocks' | 'createdAt' | 'description' | 'draftToken' | 'footerBorder' | 'id' | 'language' | 'layout' | 'metaTags' | 'path' | 'public' | 'publishDate' | 'sharingImage' | 'title' | 'translations' | 'updatedAt' | 'videoLink' | 'videoTitle' | 'visible'
+  'events': 'baseTitle' | 'blocks' | 'createdAt' | 'dateBegin' | 'dateEnd' | 'description' | 'draftToken' | 'editMode' | 'id' | 'language' | 'layout' | 'metaTags' | 'organizer' | 'overline' | 'path' | 'public' | 'publishDate' | 'sharingImage' | 'syncId' | 'teaserText' | 'title' | 'translations' | 'updatedAt' | 'version' | 'visible'
+  'posts': 'author' | 'baseTitle' | 'blocks' | 'createdAt' | 'description' | 'draftToken' | 'id' | 'language' | 'layout' | 'metaTags' | 'overline' | 'path' | 'public' | 'publishDate' | 'sharingImage' | 'syncId' | 'teaserText' | 'title' | 'translations' | 'updatedAt' | 'version' | 'visible'
+  'taxonomies': 'createdAt' | 'id' | 'kapitel' | 'language' | 'lastModifiedDateTime' | 'level' | 'msId' | 'parentId' | 'termDescription' | 'termId' | 'termPath' | 'title' | 'translations' | 'updatedAt'
 }
 
 export interface MutableFieldName {
@@ -3548,6 +3568,10 @@ export interface MutableFieldName {
   'seo': 'baseTitle' | 'baseTitlePosition' | 'baseUrl' | 'favicon' | 'logo' | 'metaTags' | 'scripts' | 'sharingImage' | 'socialMediaMeta' | 'titleSeparator' | 'visible'
   'uploads': 'description' | 'directory' | 'filename'
   'users': 'capabilities' | 'dashboardLanguage' | 'dateFormat' | 'email' | 'firstName' | 'isActive' | 'isAdmin' | 'lastName' | 'password' | 'role' | 'timeFormat'
+  'episodes': 'baseTitle' | 'blocks' | 'description' | 'footerBorder' | 'layout' | 'metaTags' | 'path' | 'public' | 'publishDate' | 'sharingImage' | 'title' | 'videoLink' | 'videoTitle' | 'visible'
+  'events': 'baseTitle' | 'blocks' | 'dateBegin' | 'dateEnd' | 'description' | 'editMode' | 'layout' | 'metaTags' | 'organizer' | 'overline' | 'path' | 'public' | 'publishDate' | 'sharingImage' | 'teaserText' | 'title' | 'version' | 'visible'
+  'posts': 'author' | 'baseTitle' | 'blocks' | 'description' | 'layout' | 'metaTags' | 'overline' | 'path' | 'public' | 'publishDate' | 'sharingImage' | 'syncId' | 'teaserText' | 'title' | 'version' | 'visible'
+  'taxonomies': never
 }
 
 export interface ImmutableFieldName {
@@ -3559,6 +3583,10 @@ export interface ImmutableFieldName {
   'seo': 'createdAt' | 'id' | 'language' | 'updatedAt'
   'uploads': 'createdAt' | 'height' | 'id' | 'language' | 'size' | 'translations' | 'type' | 'updatedAt' | 'width'
   'users': 'createdAt' | 'id' | 'language' | 'translations' | 'updatedAt'
+  'episodes': 'createdAt' | 'draftToken' | 'id' | 'language' | 'translations' | 'updatedAt'
+  'events': 'createdAt' | 'draftToken' | 'id' | 'language' | 'syncId' | 'translations' | 'updatedAt'
+  'posts': 'createdAt' | 'draftToken' | 'id' | 'language' | 'translations' | 'updatedAt'
+  'taxonomies': 'createdAt' | 'id' | 'kapitel' | 'language' | 'lastModifiedDateTime' | 'level' | 'msId' | 'parentId' | 'termDescription' | 'termId' | 'termPath' | 'title' | 'translations' | 'updatedAt'
 }
 
 export interface SelectableFieldName {
@@ -3570,6 +3598,10 @@ export interface SelectableFieldName {
   'seo': 'baseTitle' | 'baseTitlePosition' | 'baseUrl' | 'createdAt' | 'favicon' | 'id' | 'language' | 'logo' | 'metaTags' | 'scripts' | 'sharingImage' | 'socialMediaMeta' | 'titleSeparator' | 'updatedAt' | 'visible'
   'uploads': 'createdAt' | 'description' | 'directory' | 'filename' | 'height' | 'id' | 'language' | 'size' | 'translations' | 'type' | 'updatedAt' | 'width'
   'users': 'capabilities' | 'createdAt' | 'dashboardLanguage' | 'dateFormat' | 'email' | 'firstName' | 'id' | 'isActive' | 'isAdmin' | 'language' | 'lastName' | 'password' | 'role' | 'timeFormat' | 'translations' | 'updatedAt'
+  'episodes': 'baseTitle' | 'blocks' | 'createdAt' | 'description' | 'draftToken' | 'footerBorder' | 'id' | 'language' | 'layout' | 'metaTags' | 'path' | 'public' | 'publishDate' | 'sharingImage' | 'title' | 'translations' | 'updatedAt' | 'videoLink' | 'videoTitle' | 'visible'
+  'events': 'baseTitle' | 'blocks' | 'createdAt' | 'dateBegin' | 'dateEnd' | 'description' | 'draftToken' | 'editMode' | 'id' | 'language' | 'layout' | 'metaTags' | 'organizer' | 'overline' | 'path' | 'public' | 'publishDate' | 'sharingImage' | 'syncId' | 'teaserText' | 'title' | 'translations' | 'updatedAt' | 'version' | 'visible'
+  'posts': 'author' | 'baseTitle' | 'blocks' | 'createdAt' | 'description' | 'draftToken' | 'id' | 'language' | 'layout' | 'metaTags' | 'overline' | 'path' | 'public' | 'publishDate' | 'sharingImage' | 'syncId' | 'teaserText' | 'title' | 'translations' | 'updatedAt' | 'version' | 'visible'
+  'taxonomies': 'createdAt' | 'id' | 'kapitel' | 'language' | 'lastModifiedDateTime' | 'level' | 'msId' | 'parentId' | 'termDescription' | 'termId' | 'termPath' | 'title' | 'translations' | 'updatedAt'
 }
 
 export interface FetchableFieldName {
@@ -3581,6 +3613,10 @@ export interface FetchableFieldName {
   'seo': 'baseTitle' | 'baseTitlePosition' | 'baseUrl' | 'createdAt' | 'favicon' | 'id' | 'language' | 'logo' | 'metaTags' | 'scripts' | 'sharingImage' | 'socialMediaMeta' | 'titleSeparator' | 'updatedAt' | 'visible'
   'uploads': 'createdAt' | 'description' | 'directory' | 'filename' | 'height' | 'id' | 'language' | 'size' | 'translations' | 'type' | 'updatedAt' | 'width'
   'users': 'capabilities' | 'createdAt' | 'dashboardLanguage' | 'dateFormat' | 'email' | 'firstName' | 'id' | 'isActive' | 'isAdmin' | 'language' | 'lastName' | 'role' | 'timeFormat' | 'translations' | 'updatedAt'
+  'episodes': 'baseTitle' | 'blocks' | 'createdAt' | 'description' | 'draftToken' | 'footerBorder' | 'id' | 'language' | 'layout' | 'metaTags' | 'path' | 'public' | 'publishDate' | 'sharingImage' | 'title' | 'translations' | 'updatedAt' | 'videoLink' | 'videoTitle' | 'visible'
+  'events': 'baseTitle' | 'blocks' | 'createdAt' | 'dateBegin' | 'dateEnd' | 'description' | 'draftToken' | 'editMode' | 'id' | 'language' | 'layout' | 'metaTags' | 'organizer' | 'overline' | 'path' | 'public' | 'publishDate' | 'sharingImage' | 'syncId' | 'teaserText' | 'title' | 'translations' | 'updatedAt' | 'visible'
+  'posts': 'author' | 'baseTitle' | 'blocks' | 'createdAt' | 'description' | 'draftToken' | 'id' | 'language' | 'layout' | 'metaTags' | 'overline' | 'path' | 'public' | 'publishDate' | 'sharingImage' | 'teaserText' | 'title' | 'translations' | 'updatedAt' | 'visible'
+  'taxonomies': 'createdAt' | 'id' | 'kapitel' | 'language' | 'lastModifiedDateTime' | 'level' | 'msId' | 'parentId' | 'termDescription' | 'termId' | 'termPath' | 'title' | 'translations' | 'updatedAt'
 }
 
 export interface Sortable {
@@ -3592,6 +3628,10 @@ export interface Sortable {
   'seo': 'baseTitle' | 'baseTitlePosition' | 'baseUrl' | 'createdAt' | 'favicon' | 'id' | 'language' | 'logo' | 'metaTags' | 'scripts' | 'sharingImage' | 'socialMediaMeta' | 'titleSeparator' | 'updatedAt' | 'visible'
   'uploads': ':default' | 'createdAt' | 'description' | 'directory' | 'filename' | 'height' | 'id' | 'language' | 'size' | 'translations' | 'type' | 'updatedAt' | 'width'
   'users': ':default' | 'capabilities' | 'createdAt' | 'dashboardLanguage' | 'dateFormat' | 'email' | 'firstName' | 'id' | 'isActive' | 'isAdmin' | 'language' | 'lastName' | 'password' | 'role' | 'timeFormat' | 'translations' | 'updatedAt'
+  'episodes': ':default' | 'baseTitle' | 'blocks' | 'createdAt' | 'description' | 'draftToken' | 'footerBorder' | 'id' | 'language' | 'layout' | 'metaTags' | 'path' | 'public' | 'publishDate' | 'sharingImage' | 'title' | 'translations' | 'updatedAt' | 'videoLink' | 'videoTitle' | 'visible'
+  'events': ':default' | 'baseTitle' | 'blocks' | 'createdAt' | 'dateBegin' | 'dateEnd' | 'description' | 'draftToken' | 'editMode' | 'id' | 'language' | 'layout' | 'metaTags' | 'organizer' | 'overline' | 'path' | 'public' | 'publishDate' | 'sharingImage' | 'syncId' | 'teaserText' | 'title' | 'translations' | 'updatedAt' | 'version' | 'visible'
+  'posts': ':default' | 'author' | 'baseTitle' | 'blocks' | 'createdAt' | 'description' | 'draftToken' | 'id' | 'language' | 'layout' | 'metaTags' | 'overline' | 'path' | 'public' | 'publishDate' | 'sharingImage' | 'syncId' | 'teaserText' | 'title' | 'translations' | 'updatedAt' | 'version' | 'visible'
+  'taxonomies': 'createdAt' | 'id' | 'kapitel' | 'language' | 'lastModifiedDateTime' | 'level' | 'msId' | 'parentId' | 'termDescription' | 'termId' | 'termPath' | 'title' | 'translations' | 'updatedAt'
 }
 
 export interface SerializedFieldType {
@@ -4106,6 +4146,354 @@ export interface SerializedFieldType {
      */
     updatedAt: number
   }
+  'episodes': {
+    /**
+     * The unique identifier of the episode.
+     */
+    id: number
+    
+    /**
+     * The language code associated with this collection record.
+     *
+     * If not provided, the code of the primary language will be used.
+     */
+    language: string
+    
+    /**
+     * Represents a unique identifier that groups records as translations of each other.
+     * When populated, this field resolves to a key-value object.
+     * The key represents he language code, and the value is the corresponding record's ID or `null` if no record in this language exists.
+     *
+     * If the collection is not translatable, the populated value is `null`.
+     *
+     * Defaults to an automatically generated unique string.
+     */
+    translations: string
+    
+    /**
+     * The unique URL path of the episode.
+     * The path always begins with a slash ('/') and never ends with one (e.g., '/about').
+     */
+    path: string
+    
+    /**
+     * Whether the episode is publicly accessible.
+     */
+    public: boolean
+    
+    /**
+     * The token that allows to access the draft version of the episode. It is generated automatically and cannot be changed.
+     */
+    draftToken: string
+    
+    /**
+     * Defines the document's title that is shown in a browser's title bar or a page's tab. Search engines typically display about the first 55-60 characters of a page title. Text beyond that may be lost, so try not to have titles longer than that. If you must use a longer title, make sure the important parts come earlier and that nothing critical is in the part of the title that is likely to be dropped.
+     */
+    title: string
+    
+    /**
+     * Whether the base title defined in the SEO settings should be displayed together with the page title.
+     */
+    baseTitle: boolean
+    
+    /**
+     * Specifying a description that includes keywords relating to the content of your page is useful as it has the potential to make your page appear higher in relevant searches performed in search engines.
+     */
+    description: string
+    
+    /**
+     * Discourage search engines from indexing this page. It is up to search engines to honor this request.
+     */
+    visible: boolean
+    
+    /**
+     * An image that appears when someone shares this page link on a social network. The optimal image size is 1200 × 630 pixels. If not specified, the default sharing image defined in the SEO settings will be used.
+     */
+    sharingImage: string
+    
+    /**
+     * The **<meta>** tags for this page. Values entered here will override other automatically generated meta tags.
+     */
+    metaTags: string
+    
+    /**
+     * The layout to use for this episode.
+     */
+    layout: string
+    
+    /**
+     * The date and time when the episode is published or scheduled for publication.
+     */
+    publishDate: number
+    
+    /**
+     * The blocks that make up the episode content.
+     */
+    blocks: string
+    
+    /**
+     * Display a border above the footer.
+     */
+    footerBorder: boolean
+    videoTitle: string
+    videoLink: string
+    
+    /**
+     * The timestamp indicating when the episode was created.
+     */
+    createdAt: number
+    
+    /**
+     * The timestamp indicating when the episode was last updated.
+     */
+    updatedAt: number
+  }
+  'events': {
+    /**
+     * The unique identifier of the event.
+     */
+    id: number
+    
+    /**
+     * The language code associated with this collection record.
+     *
+     * If not provided, the code of the primary language will be used.
+     */
+    language: string
+    
+    /**
+     * Represents a unique identifier that groups records as translations of each other.
+     * When populated, this field resolves to a key-value object.
+     * The key represents he language code, and the value is the corresponding record's ID or `null` if no record in this language exists.
+     *
+     * If the collection is not translatable, the populated value is `null`.
+     *
+     * Defaults to an automatically generated unique string.
+     */
+    translations: string
+    
+    /**
+     * The unique URL path of the event.
+     * The path always begins with a slash ('/') and never ends with one (e.g., '/about').
+     */
+    path: string
+    
+    /**
+     * Whether the event is publicly accessible.
+     */
+    public: boolean
+    
+    /**
+     * The token that allows to access the draft version of the event. It is generated automatically and cannot be changed.
+     */
+    draftToken: string
+    
+    /**
+     * Defines the document's title that is shown in a browser's title bar or a page's tab. Search engines typically display about the first 55-60 characters of a page title. Text beyond that may be lost, so try not to have titles longer than that. If you must use a longer title, make sure the important parts come earlier and that nothing critical is in the part of the title that is likely to be dropped.
+     */
+    title: string
+    
+    /**
+     * Whether the base title defined in the SEO settings should be displayed together with the page title.
+     */
+    baseTitle: boolean
+    
+    /**
+     * Specifying a description that includes keywords relating to the content of your page is useful as it has the potential to make your page appear higher in relevant searches performed in search engines.
+     */
+    description: string
+    
+    /**
+     * Discourage search engines from indexing this page. It is up to search engines to honor this request.
+     */
+    visible: boolean
+    
+    /**
+     * An image that appears when someone shares this page link on a social network. The optimal image size is 1200 × 630 pixels. If not specified, the default sharing image defined in the SEO settings will be used.
+     */
+    sharingImage: string
+    
+    /**
+     * The **<meta>** tags for this page. Values entered here will override other automatically generated meta tags.
+     */
+    metaTags: string
+    
+    /**
+     * The layout to use for this event.
+     */
+    layout: string
+    
+    /**
+     * The date and time when the event is published or scheduled for publication.
+     */
+    publishDate: number
+    
+    /**
+     * The blocks that make up the event content.
+     */
+    blocks: string
+    syncId: string
+    version: number
+    editMode: string
+    overline: string
+    teaserText: string
+    dateBegin: number
+    dateEnd: number
+    organizer: number
+    
+    /**
+     * The timestamp indicating when the event was created.
+     */
+    createdAt: number
+    
+    /**
+     * The timestamp indicating when the event was last updated.
+     */
+    updatedAt: number
+  }
+  'posts': {
+    /**
+     * The unique identifier of the post.
+     */
+    id: number
+    
+    /**
+     * The language code associated with this collection record.
+     *
+     * If not provided, the code of the primary language will be used.
+     */
+    language: string
+    
+    /**
+     * Represents a unique identifier that groups records as translations of each other.
+     * When populated, this field resolves to a key-value object.
+     * The key represents he language code, and the value is the corresponding record's ID or `null` if no record in this language exists.
+     *
+     * If the collection is not translatable, the populated value is `null`.
+     *
+     * Defaults to an automatically generated unique string.
+     */
+    translations: string
+    
+    /**
+     * The unique URL path of the post.
+     * The path always begins with a slash ('/') and never ends with one (e.g., '/about').
+     */
+    path: string
+    
+    /**
+     * Whether the post is publicly accessible.
+     */
+    public: boolean
+    
+    /**
+     * The token that allows to access the draft version of the post. It is generated automatically and cannot be changed.
+     */
+    draftToken: string
+    
+    /**
+     * Defines the document's title that is shown in a browser's title bar or a page's tab. Search engines typically display about the first 55-60 characters of a page title. Text beyond that may be lost, so try not to have titles longer than that. If you must use a longer title, make sure the important parts come earlier and that nothing critical is in the part of the title that is likely to be dropped.
+     */
+    title: string
+    
+    /**
+     * Whether the base title defined in the SEO settings should be displayed together with the page title.
+     */
+    baseTitle: boolean
+    
+    /**
+     * Specifying a description that includes keywords relating to the content of your page is useful as it has the potential to make your page appear higher in relevant searches performed in search engines.
+     */
+    description: string
+    
+    /**
+     * Discourage search engines from indexing this page. It is up to search engines to honor this request.
+     */
+    visible: boolean
+    
+    /**
+     * An image that appears when someone shares this page link on a social network. The optimal image size is 1200 × 630 pixels. If not specified, the default sharing image defined in the SEO settings will be used.
+     */
+    sharingImage: string
+    
+    /**
+     * The **<meta>** tags for this page. Values entered here will override other automatically generated meta tags.
+     */
+    metaTags: string
+    
+    /**
+     * The layout to use for this post.
+     */
+    layout: string
+    
+    /**
+     * The date and time when the post is published or scheduled for publication.
+     */
+    publishDate: number
+    
+    /**
+     * The blocks that make up the post content.
+     */
+    blocks: string
+    syncId: string
+    version: number
+    overline: string
+    teaserText: string
+    author: number
+    
+    /**
+     * The timestamp indicating when the post was created.
+     */
+    createdAt: number
+    
+    /**
+     * The timestamp indicating when the post was last updated.
+     */
+    updatedAt: number
+  }
+  'taxonomies': {
+    /**
+     * The unique identifier of the taxonomy.
+     */
+    id: number
+    
+    /**
+     * The language code associated with this collection record.
+     *
+     * If not provided, the code of the primary language will be used.
+     */
+    language: string
+    
+    /**
+     * Represents a unique identifier that groups records as translations of each other.
+     * When populated, this field resolves to a key-value object.
+     * The key represents he language code, and the value is the corresponding record's ID or `null` if no record in this language exists.
+     *
+     * If the collection is not translatable, the populated value is `null`.
+     *
+     * Defaults to an automatically generated unique string.
+     */
+    translations: string
+    msId: number
+    title: string
+    termDescription: string
+    termPath: string
+    termId: string
+    level: number
+    parentId: string
+    kapitel: string
+    lastModifiedDateTime: number
+    
+    /**
+     * The timestamp indicating when the taxonomy was created.
+     */
+    createdAt: number
+    
+    /**
+     * The timestamp indicating when the taxonomy was last updated.
+     */
+    updatedAt: number
+  }
 }
 
 export interface CastedFieldType {
@@ -4185,7 +4573,7 @@ export interface CastedFieldType {
     /**
      * The layout to use for this page.
      */
-    layout: 'account' | 'auth' | 'checkout' | 'default' | 'dev' | 'order' | null
+    layout: never | null
     
     /**
      * The date and time when the page is published or scheduled for publication.
@@ -4677,6 +5065,371 @@ export interface CastedFieldType {
      */
     updatedAt: number | null
   }
+  'episodes': {
+    /**
+     * The unique identifier of the episode.
+     */
+    id: number
+    
+    /**
+     * The language code associated with this collection record.
+     *
+     * If not provided, the code of the primary language will be used.
+     */
+    language: 'en' | null
+    
+    /**
+     * Represents a unique identifier that groups records as translations of each other.
+     * When populated, this field resolves to a key-value object.
+     * The key represents he language code, and the value is the corresponding record's ID or `null` if no record in this language exists.
+     *
+     * If the collection is not translatable, the populated value is `null`.
+     *
+     * Defaults to an automatically generated unique string.
+     */
+    translations: string
+    
+    /**
+     * The unique URL path of the episode.
+     * The path always begins with a slash ('/') and never ends with one (e.g., '/about').
+     */
+    path: string
+    
+    /**
+     * Whether the episode is publicly accessible.
+     */
+    public: boolean
+    
+    /**
+     * The token that allows to access the draft version of the episode. It is generated automatically and cannot be changed.
+     */
+    draftToken: string
+    
+    /**
+     * Defines the document's title that is shown in a browser's title bar or a page's tab. Search engines typically display about the first 55-60 characters of a page title. Text beyond that may be lost, so try not to have titles longer than that. If you must use a longer title, make sure the important parts come earlier and that nothing critical is in the part of the title that is likely to be dropped.
+     */
+    title: string
+    
+    /**
+     * Whether the base title defined in the SEO settings should be displayed together with the page title.
+     */
+    baseTitle: boolean
+    
+    /**
+     * Specifying a description that includes keywords relating to the content of your page is useful as it has the potential to make your page appear higher in relevant searches performed in search engines.
+     */
+    description: string
+    
+    /**
+     * Discourage search engines from indexing this page. It is up to search engines to honor this request.
+     */
+    visible: boolean
+    
+    /**
+     * An image that appears when someone shares this page link on a social network. The optimal image size is 1200 × 630 pixels. If not specified, the default sharing image defined in the SEO settings will be used.
+     */
+    sharingImage: { uploadId: number, alt: string } | null
+    
+    /**
+     * The **<meta>** tags for this page. Values entered here will override other automatically generated meta tags.
+     */
+    metaTags: {
+      name: string
+      content: string
+    }[]
+
+    /**
+     * The layout to use for this episode.
+     */
+    layout: never | null
+    
+    /**
+     * The date and time when the episode is published or scheduled for publication.
+     */
+    publishDate: number | null
+    
+    /**
+     * The blocks that make up the episode content.
+     */
+    blocks: {
+      block: CastedBlockData
+    }[]
+
+    /**
+     * Display a border above the footer.
+     */
+    footerBorder: boolean
+    videoTitle: string
+    videoLink: string
+    
+    /**
+     * The timestamp indicating when the episode was created.
+     */
+    createdAt: number | null
+    
+    /**
+     * The timestamp indicating when the episode was last updated.
+     */
+    updatedAt: number | null
+  }
+  'events': {
+    /**
+     * The unique identifier of the event.
+     */
+    id: number
+    
+    /**
+     * The language code associated with this collection record.
+     *
+     * If not provided, the code of the primary language will be used.
+     */
+    language: 'en' | null
+    
+    /**
+     * Represents a unique identifier that groups records as translations of each other.
+     * When populated, this field resolves to a key-value object.
+     * The key represents he language code, and the value is the corresponding record's ID or `null` if no record in this language exists.
+     *
+     * If the collection is not translatable, the populated value is `null`.
+     *
+     * Defaults to an automatically generated unique string.
+     */
+    translations: string
+    
+    /**
+     * The unique URL path of the event.
+     * The path always begins with a slash ('/') and never ends with one (e.g., '/about').
+     */
+    path: string
+    
+    /**
+     * Whether the event is publicly accessible.
+     */
+    public: boolean
+    
+    /**
+     * The token that allows to access the draft version of the event. It is generated automatically and cannot be changed.
+     */
+    draftToken: string
+    
+    /**
+     * Defines the document's title that is shown in a browser's title bar or a page's tab. Search engines typically display about the first 55-60 characters of a page title. Text beyond that may be lost, so try not to have titles longer than that. If you must use a longer title, make sure the important parts come earlier and that nothing critical is in the part of the title that is likely to be dropped.
+     */
+    title: string
+    
+    /**
+     * Whether the base title defined in the SEO settings should be displayed together with the page title.
+     */
+    baseTitle: boolean
+    
+    /**
+     * Specifying a description that includes keywords relating to the content of your page is useful as it has the potential to make your page appear higher in relevant searches performed in search engines.
+     */
+    description: string
+    
+    /**
+     * Discourage search engines from indexing this page. It is up to search engines to honor this request.
+     */
+    visible: boolean
+    
+    /**
+     * An image that appears when someone shares this page link on a social network. The optimal image size is 1200 × 630 pixels. If not specified, the default sharing image defined in the SEO settings will be used.
+     */
+    sharingImage: { uploadId: number, alt: string } | null
+    
+    /**
+     * The **<meta>** tags for this page. Values entered here will override other automatically generated meta tags.
+     */
+    metaTags: {
+      name: string
+      content: string
+    }[]
+
+    /**
+     * The layout to use for this event.
+     */
+    layout: never | null
+    
+    /**
+     * The date and time when the event is published or scheduled for publication.
+     */
+    publishDate: number | null
+    
+    /**
+     * The blocks that make up the event content.
+     */
+    blocks: {
+      block: CastedBlockData
+    }[]
+
+    syncId: string
+    version: number
+    editMode: 'blocks' | 'content' | 'full' | 'locked' | null
+    overline: string
+    teaserText: string
+    dateBegin: number | null
+    dateEnd: number | null
+    organizer: number | null
+    
+    /**
+     * The timestamp indicating when the event was created.
+     */
+    createdAt: number | null
+    
+    /**
+     * The timestamp indicating when the event was last updated.
+     */
+    updatedAt: number | null
+  }
+  'posts': {
+    /**
+     * The unique identifier of the post.
+     */
+    id: number
+    
+    /**
+     * The language code associated with this collection record.
+     *
+     * If not provided, the code of the primary language will be used.
+     */
+    language: 'en' | null
+    
+    /**
+     * Represents a unique identifier that groups records as translations of each other.
+     * When populated, this field resolves to a key-value object.
+     * The key represents he language code, and the value is the corresponding record's ID or `null` if no record in this language exists.
+     *
+     * If the collection is not translatable, the populated value is `null`.
+     *
+     * Defaults to an automatically generated unique string.
+     */
+    translations: string
+    
+    /**
+     * The unique URL path of the post.
+     * The path always begins with a slash ('/') and never ends with one (e.g., '/about').
+     */
+    path: string
+    
+    /**
+     * Whether the post is publicly accessible.
+     */
+    public: boolean
+    
+    /**
+     * The token that allows to access the draft version of the post. It is generated automatically and cannot be changed.
+     */
+    draftToken: string
+    
+    /**
+     * Defines the document's title that is shown in a browser's title bar or a page's tab. Search engines typically display about the first 55-60 characters of a page title. Text beyond that may be lost, so try not to have titles longer than that. If you must use a longer title, make sure the important parts come earlier and that nothing critical is in the part of the title that is likely to be dropped.
+     */
+    title: string
+    
+    /**
+     * Whether the base title defined in the SEO settings should be displayed together with the page title.
+     */
+    baseTitle: boolean
+    
+    /**
+     * Specifying a description that includes keywords relating to the content of your page is useful as it has the potential to make your page appear higher in relevant searches performed in search engines.
+     */
+    description: string
+    
+    /**
+     * Discourage search engines from indexing this page. It is up to search engines to honor this request.
+     */
+    visible: boolean
+    
+    /**
+     * An image that appears when someone shares this page link on a social network. The optimal image size is 1200 × 630 pixels. If not specified, the default sharing image defined in the SEO settings will be used.
+     */
+    sharingImage: { uploadId: number, alt: string } | null
+    
+    /**
+     * The **<meta>** tags for this page. Values entered here will override other automatically generated meta tags.
+     */
+    metaTags: {
+      name: string
+      content: string
+    }[]
+
+    /**
+     * The layout to use for this post.
+     */
+    layout: never | null
+    
+    /**
+     * The date and time when the post is published or scheduled for publication.
+     */
+    publishDate: number | null
+    
+    /**
+     * The blocks that make up the post content.
+     */
+    blocks: {
+      block: CastedBlockData
+    }[]
+
+    syncId: string
+    version: number
+    overline: string
+    teaserText: string
+    author: number | null
+    
+    /**
+     * The timestamp indicating when the post was created.
+     */
+    createdAt: number | null
+    
+    /**
+     * The timestamp indicating when the post was last updated.
+     */
+    updatedAt: number | null
+  }
+  'taxonomies': {
+    /**
+     * The unique identifier of the taxonomy.
+     */
+    id: number
+    
+    /**
+     * The language code associated with this collection record.
+     *
+     * If not provided, the code of the primary language will be used.
+     */
+    language: 'en' | null
+    
+    /**
+     * Represents a unique identifier that groups records as translations of each other.
+     * When populated, this field resolves to a key-value object.
+     * The key represents he language code, and the value is the corresponding record's ID or `null` if no record in this language exists.
+     *
+     * If the collection is not translatable, the populated value is `null`.
+     *
+     * Defaults to an automatically generated unique string.
+     */
+    translations: string
+    msId: number
+    title: string
+    termDescription: string
+    termPath: string
+    termId: string
+    level: number
+    parentId: string
+    kapitel: string
+    lastModifiedDateTime: number | null
+    
+    /**
+     * The timestamp indicating when the taxonomy was created.
+     */
+    createdAt: number | null
+    
+    /**
+     * The timestamp indicating when the taxonomy was last updated.
+     */
+    updatedAt: number | null
+  }
 }
 
 export interface PopulatedFieldType {
@@ -4756,7 +5509,7 @@ export interface PopulatedFieldType {
     /**
      * The layout to use for this page.
      */
-    layout: 'account' | 'auth' | 'checkout' | 'default' | 'dev' | 'order' | null
+    layout: never | null
     
     /**
      * The date and time when the page is published or scheduled for publication.
@@ -5248,6 +6001,734 @@ export interface PopulatedFieldType {
      */
     updatedAt: number | null
   }
+  'episodes': {
+    /**
+     * The unique identifier of the episode.
+     */
+    id: number
+    
+    /**
+     * The language code associated with this collection record.
+     *
+     * If not provided, the code of the primary language will be used.
+     */
+    language: 'en' | null
+    
+    /**
+     * Represents a unique identifier that groups records as translations of each other.
+     * When populated, this field resolves to a key-value object.
+     * The key represents he language code, and the value is the corresponding record's ID or `null` if no record in this language exists.
+     *
+     * If the collection is not translatable, the populated value is `null`.
+     *
+     * Defaults to an automatically generated unique string.
+     */
+    translations: Record<SupportedLanguage, number | null> | null
+    
+    /**
+     * The unique URL path of the episode.
+     * The path always begins with a slash ('/') and never ends with one (e.g., '/about').
+     */
+    path: string
+    
+    /**
+     * Whether the episode is publicly accessible.
+     */
+    public: boolean
+    
+    /**
+     * The token that allows to access the draft version of the episode. It is generated automatically and cannot be changed.
+     */
+    draftToken: string
+    
+    /**
+     * Defines the document's title that is shown in a browser's title bar or a page's tab. Search engines typically display about the first 55-60 characters of a page title. Text beyond that may be lost, so try not to have titles longer than that. If you must use a longer title, make sure the important parts come earlier and that nothing critical is in the part of the title that is likely to be dropped.
+     */
+    title: string
+    
+    /**
+     * Whether the base title defined in the SEO settings should be displayed together with the page title.
+     */
+    baseTitle: boolean
+    
+    /**
+     * Specifying a description that includes keywords relating to the content of your page is useful as it has the potential to make your page appear higher in relevant searches performed in search engines.
+     */
+    description: string
+    
+    /**
+     * Discourage search engines from indexing this page. It is up to search engines to honor this request.
+     */
+    visible: boolean
+    
+    /**
+     * An image that appears when someone shares this page link on a social network. The optimal image size is 1200 × 630 pixels. If not specified, the default sharing image defined in the SEO settings will be used.
+     */
+    sharingImage: Image | null
+    
+    /**
+     * The **<meta>** tags for this page. Values entered here will override other automatically generated meta tags.
+     */
+    metaTags: {
+      name: string
+      content: string
+    }[]
+
+    /**
+     * The layout to use for this episode.
+     */
+    layout: never | null
+    
+    /**
+     * The date and time when the episode is published or scheduled for publication.
+     */
+    publishDate: number | null
+    
+    /**
+     * The blocks that make up the episode content.
+     */
+    blocks: {
+      block: PopulatedBlockData
+    }[]
+
+    /**
+     * Display a border above the footer.
+     */
+    footerBorder: boolean
+    videoTitle: string
+    videoLink: string
+    
+    /**
+     * The timestamp indicating when the episode was created.
+     */
+    createdAt: number | null
+    
+    /**
+     * The timestamp indicating when the episode was last updated.
+     */
+    updatedAt: number | null
+  }
+  'events': {
+    /**
+     * The unique identifier of the event.
+     */
+    id: number
+    
+    /**
+     * The language code associated with this collection record.
+     *
+     * If not provided, the code of the primary language will be used.
+     */
+    language: 'en' | null
+    
+    /**
+     * Represents a unique identifier that groups records as translations of each other.
+     * When populated, this field resolves to a key-value object.
+     * The key represents he language code, and the value is the corresponding record's ID or `null` if no record in this language exists.
+     *
+     * If the collection is not translatable, the populated value is `null`.
+     *
+     * Defaults to an automatically generated unique string.
+     */
+    translations: Record<SupportedLanguage, number | null> | null
+    
+    /**
+     * The unique URL path of the event.
+     * The path always begins with a slash ('/') and never ends with one (e.g., '/about').
+     */
+    path: string
+    
+    /**
+     * Whether the event is publicly accessible.
+     */
+    public: boolean
+    
+    /**
+     * The token that allows to access the draft version of the event. It is generated automatically and cannot be changed.
+     */
+    draftToken: string
+    
+    /**
+     * Defines the document's title that is shown in a browser's title bar or a page's tab. Search engines typically display about the first 55-60 characters of a page title. Text beyond that may be lost, so try not to have titles longer than that. If you must use a longer title, make sure the important parts come earlier and that nothing critical is in the part of the title that is likely to be dropped.
+     */
+    title: string
+    
+    /**
+     * Whether the base title defined in the SEO settings should be displayed together with the page title.
+     */
+    baseTitle: boolean
+    
+    /**
+     * Specifying a description that includes keywords relating to the content of your page is useful as it has the potential to make your page appear higher in relevant searches performed in search engines.
+     */
+    description: string
+    
+    /**
+     * Discourage search engines from indexing this page. It is up to search engines to honor this request.
+     */
+    visible: boolean
+    
+    /**
+     * An image that appears when someone shares this page link on a social network. The optimal image size is 1200 × 630 pixels. If not specified, the default sharing image defined in the SEO settings will be used.
+     */
+    sharingImage: Image | null
+    
+    /**
+     * The **<meta>** tags for this page. Values entered here will override other automatically generated meta tags.
+     */
+    metaTags: {
+      name: string
+      content: string
+    }[]
+
+    /**
+     * The layout to use for this event.
+     */
+    layout: never | null
+    
+    /**
+     * The date and time when the event is published or scheduled for publication.
+     */
+    publishDate: number | null
+    
+    /**
+     * The blocks that make up the event content.
+     */
+    blocks: {
+      block: PopulatedBlockData
+    }[]
+
+    syncId: string
+    version: number
+    editMode: 'blocks' | 'content' | 'full' | 'locked' | null
+    overline: string
+    teaserText: string
+    dateBegin: number | null
+    dateEnd: number | null
+    organizer: Pick<CastedFieldType['users'], 'id'> | null
+    
+    /**
+     * The timestamp indicating when the event was created.
+     */
+    createdAt: number | null
+    
+    /**
+     * The timestamp indicating when the event was last updated.
+     */
+    updatedAt: number | null
+  }
+  'posts': {
+    /**
+     * The unique identifier of the post.
+     */
+    id: number
+    
+    /**
+     * The language code associated with this collection record.
+     *
+     * If not provided, the code of the primary language will be used.
+     */
+    language: 'en' | null
+    
+    /**
+     * Represents a unique identifier that groups records as translations of each other.
+     * When populated, this field resolves to a key-value object.
+     * The key represents he language code, and the value is the corresponding record's ID or `null` if no record in this language exists.
+     *
+     * If the collection is not translatable, the populated value is `null`.
+     *
+     * Defaults to an automatically generated unique string.
+     */
+    translations: Record<SupportedLanguage, number | null> | null
+    
+    /**
+     * The unique URL path of the post.
+     * The path always begins with a slash ('/') and never ends with one (e.g., '/about').
+     */
+    path: string
+    
+    /**
+     * Whether the post is publicly accessible.
+     */
+    public: boolean
+    
+    /**
+     * The token that allows to access the draft version of the post. It is generated automatically and cannot be changed.
+     */
+    draftToken: string
+    
+    /**
+     * Defines the document's title that is shown in a browser's title bar or a page's tab. Search engines typically display about the first 55-60 characters of a page title. Text beyond that may be lost, so try not to have titles longer than that. If you must use a longer title, make sure the important parts come earlier and that nothing critical is in the part of the title that is likely to be dropped.
+     */
+    title: string
+    
+    /**
+     * Whether the base title defined in the SEO settings should be displayed together with the page title.
+     */
+    baseTitle: boolean
+    
+    /**
+     * Specifying a description that includes keywords relating to the content of your page is useful as it has the potential to make your page appear higher in relevant searches performed in search engines.
+     */
+    description: string
+    
+    /**
+     * Discourage search engines from indexing this page. It is up to search engines to honor this request.
+     */
+    visible: boolean
+    
+    /**
+     * An image that appears when someone shares this page link on a social network. The optimal image size is 1200 × 630 pixels. If not specified, the default sharing image defined in the SEO settings will be used.
+     */
+    sharingImage: Image | null
+    
+    /**
+     * The **<meta>** tags for this page. Values entered here will override other automatically generated meta tags.
+     */
+    metaTags: {
+      name: string
+      content: string
+    }[]
+
+    /**
+     * The layout to use for this post.
+     */
+    layout: never | null
+    
+    /**
+     * The date and time when the post is published or scheduled for publication.
+     */
+    publishDate: number | null
+    
+    /**
+     * The blocks that make up the post content.
+     */
+    blocks: {
+      block: PopulatedBlockData
+    }[]
+
+    syncId: string
+    version: number
+    overline: string
+    teaserText: string
+    author: Pick<CastedFieldType['users'], 'email'> | null
+    
+    /**
+     * The timestamp indicating when the post was created.
+     */
+    createdAt: number | null
+    
+    /**
+     * The timestamp indicating when the post was last updated.
+     */
+    updatedAt: number | null
+  }
+  'taxonomies': {
+    /**
+     * The unique identifier of the taxonomy.
+     */
+    id: number
+    
+    /**
+     * The language code associated with this collection record.
+     *
+     * If not provided, the code of the primary language will be used.
+     */
+    language: 'en' | null
+    
+    /**
+     * Represents a unique identifier that groups records as translations of each other.
+     * When populated, this field resolves to a key-value object.
+     * The key represents he language code, and the value is the corresponding record's ID or `null` if no record in this language exists.
+     *
+     * If the collection is not translatable, the populated value is `null`.
+     *
+     * Defaults to an automatically generated unique string.
+     */
+    translations: Record<SupportedLanguage, number | null> | null
+    msId: number
+    title: string
+    termDescription: string
+    termPath: string
+    termId: string
+    level: number
+    parentId: string
+    kapitel: string
+    lastModifiedDateTime: number | null
+    
+    /**
+     * The timestamp indicating when the taxonomy was created.
+     */
+    createdAt: number | null
+    
+    /**
+     * The timestamp indicating when the taxonomy was last updated.
+     */
+    updatedAt: number | null
+  }
+}
+
+export interface FieldNameByType {
+  'pages': {
+    'block': never,
+    'button-group': never,
+    'checkbox': never,
+    'checkboxes': never,
+    'chips': never,
+    'date-range': never,
+    'date-time-range': never,
+    'date-time': 'createdAt' | 'publishDate' | 'updatedAt',
+    'date': never,
+    'editor': never,
+    'file': never,
+    'icon': never,
+    'image': 'sharingImage',
+    'link': never,
+    'number': 'id',
+    'range': never,
+    'record': never,
+    'records': never,
+    'repeater': 'blocks' | 'metaTags',
+    'select': 'language' | 'layout',
+    'size': never,
+    'slider-range': never,
+    'slider': never,
+    'switch': 'baseTitle' | 'public' | 'visible',
+    'text-area': 'description' | 'title',
+    'text': 'draftToken' | 'path' | 'translations',
+    'time-range': never,
+    'time': never,
+  }
+  'presets': {
+    'block': never,
+    'button-group': never,
+    'checkbox': never,
+    'checkboxes': never,
+    'chips': never,
+    'date-range': never,
+    'date-time-range': never,
+    'date-time': 'createdAt' | 'updatedAt',
+    'date': never,
+    'editor': never,
+    'file': never,
+    'icon': never,
+    'image': never,
+    'link': never,
+    'number': 'id',
+    'range': never,
+    'record': never,
+    'records': never,
+    'repeater': 'blocks',
+    'select': 'language',
+    'size': never,
+    'slider-range': never,
+    'slider': never,
+    'switch': never,
+    'text-area': never,
+    'text': 'name' | 'translations',
+    'time-range': never,
+    'time': never,
+  }
+  'previews': {
+    'block': never,
+    'button-group': never,
+    'checkbox': never,
+    'checkboxes': never,
+    'chips': never,
+    'date-range': never,
+    'date-time-range': never,
+    'date-time': 'createdAt' | 'updatedAt',
+    'date': never,
+    'editor': never,
+    'file': never,
+    'icon': never,
+    'image': never,
+    'link': never,
+    'number': 'id',
+    'range': never,
+    'record': never,
+    'records': never,
+    'repeater': never,
+    'select': 'language',
+    'size': never,
+    'slider-range': never,
+    'slider': never,
+    'switch': never,
+    'text-area': never,
+    'text': 'collection' | 'data' | 'token' | 'translations',
+    'time-range': never,
+    'time': never,
+  }
+  'redirects': {
+    'block': never,
+    'button-group': never,
+    'checkbox': never,
+    'checkboxes': never,
+    'chips': never,
+    'date-range': never,
+    'date-time-range': never,
+    'date-time': 'createdAt' | 'updatedAt',
+    'date': never,
+    'editor': never,
+    'file': never,
+    'icon': never,
+    'image': never,
+    'link': never,
+    'number': 'id',
+    'range': never,
+    'record': never,
+    'records': never,
+    'repeater': 'rules',
+    'select': 'language',
+    'size': never,
+    'slider-range': never,
+    'slider': never,
+    'switch': never,
+    'text-area': never,
+    'text': never,
+    'time-range': never,
+    'time': never,
+  }
+  'roles': {
+    'block': never,
+    'button-group': never,
+    'checkbox': never,
+    'checkboxes': never,
+    'chips': 'capabilities',
+    'date-range': never,
+    'date-time-range': never,
+    'date-time': 'createdAt' | 'updatedAt',
+    'date': never,
+    'editor': never,
+    'file': never,
+    'icon': never,
+    'image': never,
+    'link': never,
+    'number': 'id',
+    'range': never,
+    'record': never,
+    'records': never,
+    'repeater': never,
+    'select': 'language',
+    'size': never,
+    'slider-range': never,
+    'slider': never,
+    'switch': never,
+    'text-area': never,
+    'text': 'name' | 'translations',
+    'time-range': never,
+    'time': never,
+  }
+  'seo': {
+    'block': never,
+    'button-group': 'baseTitlePosition',
+    'checkbox': never,
+    'checkboxes': never,
+    'chips': never,
+    'date-range': never,
+    'date-time-range': never,
+    'date-time': 'createdAt' | 'updatedAt',
+    'date': never,
+    'editor': never,
+    'file': never,
+    'icon': never,
+    'image': 'favicon' | 'logo' | 'sharingImage',
+    'link': never,
+    'number': 'id',
+    'range': never,
+    'record': never,
+    'records': never,
+    'repeater': 'metaTags' | 'scripts',
+    'select': 'language',
+    'size': never,
+    'slider-range': never,
+    'slider': never,
+    'switch': 'socialMediaMeta' | 'visible',
+    'text-area': never,
+    'text': 'baseTitle' | 'baseUrl' | 'titleSeparator',
+    'time-range': never,
+    'time': never,
+  }
+  'uploads': {
+    'block': never,
+    'button-group': never,
+    'checkbox': never,
+    'checkboxes': never,
+    'chips': never,
+    'date-range': never,
+    'date-time-range': never,
+    'date-time': 'createdAt' | 'updatedAt',
+    'date': never,
+    'editor': never,
+    'file': never,
+    'icon': never,
+    'image': never,
+    'link': never,
+    'number': 'height' | 'id' | 'size' | 'width',
+    'range': never,
+    'record': never,
+    'records': never,
+    'repeater': never,
+    'select': 'language',
+    'size': never,
+    'slider-range': never,
+    'slider': never,
+    'switch': never,
+    'text-area': never,
+    'text': 'description' | 'directory' | 'filename' | 'translations' | 'type',
+    'time-range': never,
+    'time': never,
+  }
+  'users': {
+    'block': never,
+    'button-group': never,
+    'checkbox': never,
+    'checkboxes': never,
+    'chips': 'capabilities',
+    'date-range': never,
+    'date-time-range': never,
+    'date-time': 'createdAt' | 'updatedAt',
+    'date': never,
+    'editor': never,
+    'file': never,
+    'icon': never,
+    'image': never,
+    'link': never,
+    'number': 'id',
+    'range': never,
+    'record': 'role',
+    'records': never,
+    'repeater': never,
+    'select': 'dashboardLanguage' | 'language',
+    'size': never,
+    'slider-range': never,
+    'slider': never,
+    'switch': 'isActive' | 'isAdmin',
+    'text-area': never,
+    'text': 'dateFormat' | 'email' | 'firstName' | 'lastName' | 'password' | 'timeFormat' | 'translations',
+    'time-range': never,
+    'time': never,
+  }
+  'episodes': {
+    'block': never,
+    'button-group': never,
+    'checkbox': never,
+    'checkboxes': never,
+    'chips': never,
+    'date-range': never,
+    'date-time-range': never,
+    'date-time': 'createdAt' | 'publishDate' | 'updatedAt',
+    'date': never,
+    'editor': never,
+    'file': never,
+    'icon': never,
+    'image': 'sharingImage',
+    'link': 'videoLink',
+    'number': 'id',
+    'range': never,
+    'record': never,
+    'records': never,
+    'repeater': 'blocks' | 'metaTags',
+    'select': 'language' | 'layout',
+    'size': never,
+    'slider-range': never,
+    'slider': never,
+    'switch': 'baseTitle' | 'footerBorder' | 'public' | 'visible',
+    'text-area': 'description' | 'title',
+    'text': 'draftToken' | 'path' | 'translations' | 'videoTitle',
+    'time-range': never,
+    'time': never,
+  }
+  'events': {
+    'block': never,
+    'button-group': 'editMode',
+    'checkbox': never,
+    'checkboxes': never,
+    'chips': never,
+    'date-range': never,
+    'date-time-range': never,
+    'date-time': 'createdAt' | 'dateBegin' | 'dateEnd' | 'publishDate' | 'updatedAt',
+    'date': never,
+    'editor': never,
+    'file': never,
+    'icon': never,
+    'image': 'sharingImage',
+    'link': never,
+    'number': 'id' | 'version',
+    'range': never,
+    'record': 'organizer',
+    'records': never,
+    'repeater': 'blocks' | 'metaTags',
+    'select': 'language' | 'layout',
+    'size': never,
+    'slider-range': never,
+    'slider': never,
+    'switch': 'baseTitle' | 'public' | 'visible',
+    'text-area': 'description' | 'title',
+    'text': 'draftToken' | 'overline' | 'path' | 'syncId' | 'teaserText' | 'translations',
+    'time-range': never,
+    'time': never,
+  }
+  'posts': {
+    'block': never,
+    'button-group': never,
+    'checkbox': never,
+    'checkboxes': never,
+    'chips': never,
+    'date-range': never,
+    'date-time-range': never,
+    'date-time': 'createdAt' | 'publishDate' | 'updatedAt',
+    'date': never,
+    'editor': never,
+    'file': never,
+    'icon': never,
+    'image': 'sharingImage',
+    'link': never,
+    'number': 'id' | 'version',
+    'range': never,
+    'record': 'author',
+    'records': never,
+    'repeater': 'blocks' | 'metaTags',
+    'select': 'language' | 'layout',
+    'size': never,
+    'slider-range': never,
+    'slider': never,
+    'switch': 'baseTitle' | 'public' | 'visible',
+    'text-area': 'description' | 'title',
+    'text': 'draftToken' | 'overline' | 'path' | 'syncId' | 'teaserText' | 'translations',
+    'time-range': never,
+    'time': never,
+  }
+  'taxonomies': {
+    'block': never,
+    'button-group': never,
+    'checkbox': never,
+    'checkboxes': never,
+    'chips': never,
+    'date-range': never,
+    'date-time-range': never,
+    'date-time': 'createdAt' | 'lastModifiedDateTime' | 'updatedAt',
+    'date': never,
+    'editor': never,
+    'file': never,
+    'icon': never,
+    'image': never,
+    'link': never,
+    'number': 'id' | 'level' | 'msId',
+    'range': never,
+    'record': never,
+    'records': never,
+    'repeater': never,
+    'select': 'language',
+    'size': never,
+    'slider-range': never,
+    'slider': never,
+    'switch': never,
+    'text-area': 'termDescription',
+    'text': 'kapitel' | 'parentId' | 'termId' | 'termPath' | 'title' | 'translations',
+    'time-range': never,
+    'time': never,
+  }
 }
 
 export interface CreateInput {
@@ -5322,7 +6803,7 @@ export interface CreateInput {
     /**
      * The layout to use for this page.
      */
-    layout?: 'account' | 'auth' | 'checkout' | 'default' | 'dev' | 'order' | null
+    layout?: never | null
     
     /**
      * The date and time when the page is published or scheduled for publication.
@@ -5784,6 +7265,351 @@ export interface CreateInput {
      */
     updatedAt?: number | null
   }
+  'episodes': {
+    /**
+     * The language code associated with this collection record.
+     *
+     * If not provided, the code of the primary language will be used.
+     */
+    language?: 'en' | null
+    
+    /**
+     * Represents a unique identifier that groups records as translations of each other.
+     * When populated, this field resolves to a key-value object.
+     * The key represents he language code, and the value is the corresponding record's ID or `null` if no record in this language exists.
+     *
+     * If the collection is not translatable, the populated value is `null`.
+     *
+     * Defaults to an automatically generated unique string.
+     */
+    translations?: string
+    
+    /**
+     * The unique URL path of the episode.
+     * The path always begins with a slash ('/') and never ends with one (e.g., '/about').
+     */
+    path: string
+    
+    /**
+     * Whether the episode is publicly accessible.
+     */
+    public?: Booleanish
+    
+    /**
+     * The token that allows to access the draft version of the episode. It is generated automatically and cannot be changed.
+     */
+    draftToken?: string
+    
+    /**
+     * Defines the document's title that is shown in a browser's title bar or a page's tab. Search engines typically display about the first 55-60 characters of a page title. Text beyond that may be lost, so try not to have titles longer than that. If you must use a longer title, make sure the important parts come earlier and that nothing critical is in the part of the title that is likely to be dropped.
+     */
+    title?: string
+    
+    /**
+     * Whether the base title defined in the SEO settings should be displayed together with the page title.
+     */
+    baseTitle?: Booleanish
+    
+    /**
+     * Specifying a description that includes keywords relating to the content of your page is useful as it has the potential to make your page appear higher in relevant searches performed in search engines.
+     */
+    description?: string
+    
+    /**
+     * Discourage search engines from indexing this page. It is up to search engines to honor this request.
+     */
+    visible?: Booleanish
+    
+    /**
+     * An image that appears when someone shares this page link on a social network. The optimal image size is 1200 × 630 pixels. If not specified, the default sharing image defined in the SEO settings will be used.
+     */
+    sharingImage?: { uploadId: number, alt: string } | number | null
+    
+    /**
+     * The **<meta>** tags for this page. Values entered here will override other automatically generated meta tags.
+     */
+    metaTags?: {
+      name: string
+      content: string
+    }[]
+
+    /**
+     * The layout to use for this episode.
+     */
+    layout?: never | null
+    
+    /**
+     * The date and time when the episode is published or scheduled for publication.
+     */
+    publishDate?: number | null
+    
+    /**
+     * The blocks that make up the episode content.
+     */
+    blocks?: {
+      block: BlockInputData
+    }[]
+
+    /**
+     * Display a border above the footer.
+     */
+    footerBorder?: Booleanish
+    videoTitle?: string
+    videoLink: string
+    
+    /**
+     * The timestamp indicating when the episode was created.
+     */
+    createdAt?: number | null
+    
+    /**
+     * The timestamp indicating when the episode was last updated.
+     */
+    updatedAt?: number | null
+  }
+  'events': {
+    /**
+     * The language code associated with this collection record.
+     *
+     * If not provided, the code of the primary language will be used.
+     */
+    language?: 'en' | null
+    
+    /**
+     * Represents a unique identifier that groups records as translations of each other.
+     * When populated, this field resolves to a key-value object.
+     * The key represents he language code, and the value is the corresponding record's ID or `null` if no record in this language exists.
+     *
+     * If the collection is not translatable, the populated value is `null`.
+     *
+     * Defaults to an automatically generated unique string.
+     */
+    translations?: string
+    
+    /**
+     * The unique URL path of the event.
+     * The path always begins with a slash ('/') and never ends with one (e.g., '/about').
+     */
+    path: string
+    
+    /**
+     * Whether the event is publicly accessible.
+     */
+    public?: Booleanish
+    
+    /**
+     * The token that allows to access the draft version of the event. It is generated automatically and cannot be changed.
+     */
+    draftToken?: string
+    
+    /**
+     * Defines the document's title that is shown in a browser's title bar or a page's tab. Search engines typically display about the first 55-60 characters of a page title. Text beyond that may be lost, so try not to have titles longer than that. If you must use a longer title, make sure the important parts come earlier and that nothing critical is in the part of the title that is likely to be dropped.
+     */
+    title?: string
+    
+    /**
+     * Whether the base title defined in the SEO settings should be displayed together with the page title.
+     */
+    baseTitle?: Booleanish
+    
+    /**
+     * Specifying a description that includes keywords relating to the content of your page is useful as it has the potential to make your page appear higher in relevant searches performed in search engines.
+     */
+    description?: string
+    
+    /**
+     * Discourage search engines from indexing this page. It is up to search engines to honor this request.
+     */
+    visible?: Booleanish
+    
+    /**
+     * An image that appears when someone shares this page link on a social network. The optimal image size is 1200 × 630 pixels. If not specified, the default sharing image defined in the SEO settings will be used.
+     */
+    sharingImage?: { uploadId: number, alt: string } | number | null
+    
+    /**
+     * The **<meta>** tags for this page. Values entered here will override other automatically generated meta tags.
+     */
+    metaTags?: {
+      name: string
+      content: string
+    }[]
+
+    /**
+     * The layout to use for this event.
+     */
+    layout?: never | null
+    
+    /**
+     * The date and time when the event is published or scheduled for publication.
+     */
+    publishDate?: number | null
+    
+    /**
+     * The blocks that make up the event content.
+     */
+    blocks?: {
+      block: BlockInputData
+    }[]
+
+    syncId: string
+    version: number
+    editMode: 'blocks' | 'content' | 'full' | 'locked' | null
+    overline?: string
+    teaserText?: string
+    dateBegin?: number | null
+    dateEnd?: number | null
+    organizer?: number | null
+    
+    /**
+     * The timestamp indicating when the event was created.
+     */
+    createdAt?: number | null
+    
+    /**
+     * The timestamp indicating when the event was last updated.
+     */
+    updatedAt?: number | null
+  }
+  'posts': {
+    /**
+     * The language code associated with this collection record.
+     *
+     * If not provided, the code of the primary language will be used.
+     */
+    language?: 'en' | null
+    
+    /**
+     * Represents a unique identifier that groups records as translations of each other.
+     * When populated, this field resolves to a key-value object.
+     * The key represents he language code, and the value is the corresponding record's ID or `null` if no record in this language exists.
+     *
+     * If the collection is not translatable, the populated value is `null`.
+     *
+     * Defaults to an automatically generated unique string.
+     */
+    translations?: string
+    
+    /**
+     * The unique URL path of the post.
+     * The path always begins with a slash ('/') and never ends with one (e.g., '/about').
+     */
+    path: string
+    
+    /**
+     * Whether the post is publicly accessible.
+     */
+    public?: Booleanish
+    
+    /**
+     * The token that allows to access the draft version of the post. It is generated automatically and cannot be changed.
+     */
+    draftToken?: string
+    
+    /**
+     * Defines the document's title that is shown in a browser's title bar or a page's tab. Search engines typically display about the first 55-60 characters of a page title. Text beyond that may be lost, so try not to have titles longer than that. If you must use a longer title, make sure the important parts come earlier and that nothing critical is in the part of the title that is likely to be dropped.
+     */
+    title?: string
+    
+    /**
+     * Whether the base title defined in the SEO settings should be displayed together with the page title.
+     */
+    baseTitle?: Booleanish
+    
+    /**
+     * Specifying a description that includes keywords relating to the content of your page is useful as it has the potential to make your page appear higher in relevant searches performed in search engines.
+     */
+    description?: string
+    
+    /**
+     * Discourage search engines from indexing this page. It is up to search engines to honor this request.
+     */
+    visible?: Booleanish
+    
+    /**
+     * An image that appears when someone shares this page link on a social network. The optimal image size is 1200 × 630 pixels. If not specified, the default sharing image defined in the SEO settings will be used.
+     */
+    sharingImage?: { uploadId: number, alt: string } | number | null
+    
+    /**
+     * The **<meta>** tags for this page. Values entered here will override other automatically generated meta tags.
+     */
+    metaTags?: {
+      name: string
+      content: string
+    }[]
+
+    /**
+     * The layout to use for this post.
+     */
+    layout?: never | null
+    
+    /**
+     * The date and time when the post is published or scheduled for publication.
+     */
+    publishDate?: number | null
+    
+    /**
+     * The blocks that make up the post content.
+     */
+    blocks?: {
+      block: BlockInputData
+    }[]
+
+    syncId: string
+    version: number
+    overline?: string
+    teaserText?: string
+    author?: number | null
+    
+    /**
+     * The timestamp indicating when the post was created.
+     */
+    createdAt?: number | null
+    
+    /**
+     * The timestamp indicating when the post was last updated.
+     */
+    updatedAt?: number | null
+  }
+  'taxonomies': {
+    /**
+     * The language code associated with this collection record.
+     *
+     * If not provided, the code of the primary language will be used.
+     */
+    language?: 'en' | null
+    
+    /**
+     * Represents a unique identifier that groups records as translations of each other.
+     * When populated, this field resolves to a key-value object.
+     * The key represents he language code, and the value is the corresponding record's ID or `null` if no record in this language exists.
+     *
+     * If the collection is not translatable, the populated value is `null`.
+     *
+     * Defaults to an automatically generated unique string.
+     */
+    translations?: string
+    msId: number
+    title?: string
+    termDescription?: string
+    termPath?: string
+    termId?: string
+    level?: number
+    parentId?: string
+    kapitel?: string
+    lastModifiedDateTime?: number | null
+    
+    /**
+     * The timestamp indicating when the taxonomy was created.
+     */
+    createdAt?: number | null
+    
+    /**
+     * The timestamp indicating when the taxonomy was last updated.
+     */
+    updatedAt?: number | null
+  }
 }
 
 export interface UpdateInput {
@@ -5795,6 +7621,10 @@ export interface UpdateInput {
   'seo': Omit<Partial<CreateInput['seo']>, ImmutableFieldName['seo']>
   'uploads': Omit<Partial<CreateInput['uploads']>, ImmutableFieldName['uploads']>
   'users': Omit<Partial<CreateInput['users']>, ImmutableFieldName['users']>
+  'episodes': Omit<Partial<CreateInput['episodes']>, ImmutableFieldName['episodes']>
+  'events': Omit<Partial<CreateInput['events']>, ImmutableFieldName['events']>
+  'posts': Omit<Partial<CreateInput['posts']>, ImmutableFieldName['posts']>
+  'taxonomies': Omit<Partial<CreateInput['taxonomies']>, ImmutableFieldName['taxonomies']>
 }
 
 export interface CollectionSearchStructure {
@@ -5806,6 +7636,10 @@ export interface CollectionSearchStructure {
   'seo': unknown
   'uploads': 'default'
   'users': 'default'
+  'episodes': 'default'
+  'events': 'default'
+  'posts': 'default'
+  'taxonomies': unknown
 }
 
 import { defineHook } from '../../../node_modules/pruvious/dist/runtime/hooks/hook.definition'
@@ -5822,6 +7656,100 @@ import { defineDashboardPage } from '../../../node_modules/pruvious/dist/runtime
 export { defineDashboardPage }
 
 export type BlockInputData = {
+  /**
+   * The block name.
+   */
+  name: 'Button'
+
+  /**
+   * The block fields.
+   */
+  fields: {
+    linkTitle?: string
+    link: string
+  }
+
+  /**
+   * The block slots.
+   */
+  slots?: {}
+} | {
+  /**
+   * The block name.
+   */
+  name: 'Hero'
+
+  /**
+   * The block fields.
+   */
+  fields: {
+    image?: { uploadId: number, alt: string } | number | null
+    title?: string
+    overline?: string
+    teasertext?: string
+    primaryButtonText?: string
+    primaryButtonLink: string
+    secondaryButtonText?: string
+    secondaryButtonLink: string
+  }
+
+  /**
+   * The block slots.
+   */
+  slots?: {}
+} | {
+  /**
+   * The block name.
+   */
+  name: 'PageIntro'
+
+  /**
+   * The block fields.
+   */
+  fields: {
+    title: string
+    kicker?: string
+  }
+
+  /**
+   * The block slots.
+   */
+  slots?: {}
+} | {
+  /**
+   * The block name.
+   */
+  name: 'Prose'
+
+  /**
+   * The block fields.
+   */
+  fields: {
+    text: string
+  }
+
+  /**
+   * The block slots.
+   */
+  slots?: {}
+} | {
+  /**
+   * The block name.
+   */
+  name: 'Video'
+
+  /**
+   * The block fields.
+   */
+  fields: {
+    image: { uploadId: number, alt: string } | number | null
+  }
+
+  /**
+   * The block slots.
+   */
+  slots?: {}
+} | {
   /**
    * The block name.
    */
@@ -5847,6 +7775,100 @@ export type CastedBlockData = {
   /**
    * The block name.
    */
+  name: 'Button'
+
+  /**
+   * The block fields.
+   */
+  fields: {
+    linkTitle: string
+    link: string
+  }
+
+  /**
+   * The block slots.
+   */
+  slots?: {}
+} | {
+  /**
+   * The block name.
+   */
+  name: 'Hero'
+
+  /**
+   * The block fields.
+   */
+  fields: {
+    image: { uploadId: number, alt: string } | null
+    title: string
+    overline: string
+    teasertext: string
+    primaryButtonText: string
+    primaryButtonLink: string
+    secondaryButtonText: string
+    secondaryButtonLink: string
+  }
+
+  /**
+   * The block slots.
+   */
+  slots?: {}
+} | {
+  /**
+   * The block name.
+   */
+  name: 'PageIntro'
+
+  /**
+   * The block fields.
+   */
+  fields: {
+    title: string
+    kicker: string
+  }
+
+  /**
+   * The block slots.
+   */
+  slots?: {}
+} | {
+  /**
+   * The block name.
+   */
+  name: 'Prose'
+
+  /**
+   * The block fields.
+   */
+  fields: {
+    text: string
+  }
+
+  /**
+   * The block slots.
+   */
+  slots?: {}
+} | {
+  /**
+   * The block name.
+   */
+  name: 'Video'
+
+  /**
+   * The block fields.
+   */
+  fields: {
+    image: { uploadId: number, alt: string } | null
+  }
+
+  /**
+   * The block slots.
+   */
+  slots?: {}
+} | {
+  /**
+   * The block name.
+   */
   name: 'Preset'
 
   /**
@@ -5866,6 +7888,100 @@ export type CastedBlockData = {
 }
 
 export type PopulatedBlockData = {
+  /**
+   * The block name.
+   */
+  name: 'Button'
+
+  /**
+   * The block fields.
+   */
+  fields: {
+    linkTitle: string
+    link: string
+  }
+
+  /**
+   * The block slots.
+   */
+  slots?: {}
+} | {
+  /**
+   * The block name.
+   */
+  name: 'Hero'
+
+  /**
+   * The block fields.
+   */
+  fields: {
+    image: Image | null
+    title: string
+    overline: string
+    teasertext: string
+    primaryButtonText: string
+    primaryButtonLink: string
+    secondaryButtonText: string
+    secondaryButtonLink: string
+  }
+
+  /**
+   * The block slots.
+   */
+  slots?: {}
+} | {
+  /**
+   * The block name.
+   */
+  name: 'PageIntro'
+
+  /**
+   * The block fields.
+   */
+  fields: {
+    title: string
+    kicker: string
+  }
+
+  /**
+   * The block slots.
+   */
+  slots?: {}
+} | {
+  /**
+   * The block name.
+   */
+  name: 'Prose'
+
+  /**
+   * The block fields.
+   */
+  fields: {
+    text: string
+  }
+
+  /**
+   * The block slots.
+   */
+  slots?: {}
+} | {
+  /**
+   * The block name.
+   */
+  name: 'Video'
+
+  /**
+   * The block fields.
+   */
+  fields: {
+    image: Image | null
+  }
+
+  /**
+   * The block slots.
+   */
+  slots?: {}
+} | {
   /**
    * The block name.
    */
@@ -5889,7 +8005,7 @@ export type PopulatedBlockData = {
 
 export const userCapabilities: UserCapability[] = ['access-dashboard', 'clear-cache', 'update-profile', ...collectionCapabilities]
 
-export const layouts: Pick<LayoutDefinition, 'name' | 'label'>[] = [{ name: 'default', label: 'Default' }, { name: 'account', label: 'Account' }, { name: 'auth', label: 'Auth' }, { name: 'checkout', label: 'Checkout' }, { name: 'dev', label: 'Dev' }, { name: 'order', label: 'Order' }]
+export const layouts: Pick<LayoutDefinition, 'name' | 'label'>[] = [{ name: 'account', label: 'Account' }, { name: 'auth', label: 'Auth' }, { name: 'default', label: 'Default' }, { name: 'blog', label: 'Blog post' }, { name: 'checkout', label: 'Checkout' }, { name: 'dev', label: 'Dev' }, { name: 'episode', label: 'Episode' }, { name: 'order', label: 'Order' }]
 
 export type PruviousIcon = '24Hours' | '2fa' | '360' | '3dCubeSphere' | 'AB' | 'AB2' | 'Abacus' | 'Abc' | 'AccessPoint' | 'Accessible' | 'AddressBook' | 'Adjustments' | 'AdjustmentsHorizontal' | 'AerialLift' | 'Alarm' | 'Album' | 'AlertTriangle' | 'AlignCenter' | 'AlignJustified' | 'AlignLeft' | 'AlignRight' | 'Analyze' | 'Anchor' | 'Angle' | 'Api' | 'AppWindow' | 'Apple' | 'Apps' | 'Archive' | 'ArrowBack' | 'ArrowBackUp' | 'ArrowBounce' | 'ArrowDown' | 'ArrowForwardUp' | 'ArrowLeft' | 'ArrowRight' | 'ArrowUp' | 'ArrowsHorizontal' | 'ArrowsMaximize' | 'ArrowsSort' | 'Article' | 'AspectRatio' | 'Atom' | 'Award' | 'Axe' | 'Backpack' | 'Badge3d' | 'Badge4k' | 'BadgeAd' | 'BadgeHd' | 'Ballpen' | 'Ban' | 'Basket' | 'Bell' | 'Bluetooth' | 'Bold' | 'Bolt' | 'Book' | 'Bookmark' | 'Box' | 'BoxMultiple' | 'Briefcase' | 'Browser' | 'Brush' | 'Bucket' | 'Bug' | 'Building' | 'BuildingFactory' | 'BuildingStore' | 'Bulb' | 'Bus' | 'Cake' | 'Calculator' | 'Calendar' | 'CalendarEvent' | 'Camera' | 'Capture' | 'Car' | 'Cards' | 'Cash' | 'Cast' | 'Cat' | 'Category' | 'Certificate' | 'ChartBar' | 'ChartDots' | 'ChartPie' | 'Check' | 'Checkbox' | 'Checklist' | 'ChefHat' | 'ChevronDown' | 'ChevronLeft' | 'ChevronRight' | 'ChevronUp' | 'CirclePlus' | 'Circles' | 'ClearAll' | 'ClearFormatting' | 'Click' | 'Clipboard' | 'ClipboardCopy' | 'Clock' | 'Cloud' | 'CloudComputing' | 'Code' | 'CodeCircle' | 'CodeDots' | 'CodePlus' | 'Coffee' | 'Coin' | 'Coins' | 'Command' | 'Compass' | 'Components' | 'Contrast' | 'Cookie' | 'Copy' | 'Copyright' | 'Cpu' | 'CreditCard' | 'Crop' | 'Cup' | 'CurrencyCent' | 'CurrencyDollar' | 'CurrencyEuro' | 'CurrentLocation' | 'Cut' | 'Cylinder' | 'Database' | 'DatabaseExport' | 'DatabaseImport' | 'Delta' | 'DeviceDesktop' | 'DeviceFloppy' | 'DeviceGamepad' | 'DeviceIpad' | 'DeviceMobile' | 'DeviceNintendo' | 'DeviceSdCard' | 'DeviceTablet' | 'DeviceTv' | 'DeviceWatch' | 'Devices' | 'Devices2' | 'Dialpad' | 'Diamond' | 'Dice' | 'Disabled' | 'Disc' | 'Discount' | 'DiscountCheck' | 'Dog' | 'Door' | 'DotsVertical' | 'Download' | 'Droplet' | 'EPassport' | 'Edit' | 'Egg' | 'Eraser' | 'ExclamationCircle' | 'ExternalLink' | 'Eye' | 'EyeOff' | 'Eyeglass' | 'File' | 'FileCertificate' | 'FilePlus' | 'FileSearch' | 'FileSpreadsheet' | 'FileText' | 'FileZip' | 'Files' | 'Filter' | 'FilterOff' | 'Fingerprint' | 'Fish' | 'Flag' | 'Flare' | 'Flask' | 'Focus' | 'FocusCentered' | 'Folder' | 'FolderPlus' | 'Forms' | 'Frame' | 'GasStation' | 'Glass' | 'Globe' | 'Gps' | 'Graph' | 'GridDots' | 'GripVertical' | 'H1' | 'H2' | 'H3' | 'H4' | 'H5' | 'H6' | 'Heading' | 'Headphones' | 'Headset' | 'Heart' | 'Help' | 'Highlight' | 'History' | 'Home' | 'Id' | 'Inbox' | 'InputSearch' | 'Italic' | 'Key' | 'Keyboard' | 'Keyframes' | 'Language' | 'LanguageOff' | 'LayersDifference' | 'LayersIntersect' | 'LayersLinked' | 'LayersSubtract' | 'LayersUnion' | 'Layout' | 'LayoutAlignBottom' | 'LayoutAlignCenter' | 'LayoutAlignLeft' | 'LayoutAlignMiddle' | 'LayoutAlignRight' | 'LayoutAlignTop' | 'LayoutBottombar' | 'LayoutCards' | 'LayoutColumns' | 'LayoutDistributeHorizontal' | 'LayoutDistributeVertical' | 'LayoutGridAdd' | 'LayoutList' | 'LayoutRows' | 'LayoutSidebar' | 'LayoutSidebarRight' | 'Leaf' | 'Link' | 'List' | 'ListNumbers' | 'Loader2' | 'Location' | 'Login' | 'Logout' | 'Mail' | 'MailOpened' | 'Map' | 'MapPin' | 'Maximize' | 'Message' | 'MessageCircle' | 'Messages' | 'Microphone' | 'Minimize' | 'Moon' | 'Mountain' | 'Mouse' | 'Movie' | 'Mug' | 'Network' | 'News' | 'Note' | 'Notebook' | 'Notes' | 'Notification' | 'Outlet' | 'Package' | 'Paint' | 'Palette' | 'Paperclip' | 'Parking' | 'Paw' | 'Pencil' | 'Pennant' | 'Perspective' | 'Phone' | 'Photo' | 'PictureInPicture' | 'Pin' | 'Placeholder' | 'Plane' | 'Planet' | 'Plant' | 'PlayCard' | 'PlayerPause' | 'PlayerPlay' | 'Playlist' | 'Plug' | 'Plus' | 'Pointer' | 'Power' | 'Presentation' | 'Printer' | 'Puzzle' | 'Qrcode' | 'Quote' | 'Radio' | 'Rainbow' | 'Receipt' | 'Recycle' | 'Refresh' | 'Registered' | 'Repeat' | 'Report' | 'ReportSearch' | 'Resize' | 'Ripple' | 'Road' | 'RoadSign' | 'Robot' | 'Rocket' | 'Rotate' | 'RulerMeasure' | 'Scale' | 'Screenshot' | 'Script' | 'Search' | 'Section' | 'Seeding' | 'Send' | 'SeparatorHorizontal' | 'Server' | 'Server2' | 'Settings' | 'Settings2' | 'Shape' | 'Share' | 'Shield' | 'ShieldLock' | 'Shirt' | 'Shoe' | 'ShoppingBag' | 'ShoppingCart' | 'Slice' | 'SortAscending' | 'SortAscendingLetters' | 'SortAscendingNumbers' | 'SortDescending' | 'SortDescendingLetters' | 'SortDescendingNumbers' | 'Soup' | 'Spade' | 'Spy' | 'Square' | 'SquareOff' | 'Stack' | 'Stack2' | 'Stack3' | 'Stairs' | 'Star' | 'StarHalf' | 'Sticker' | 'Strikethrough' | 'Subscript' | 'Sun' | 'Superscript' | 'Sword' | 'Swords' | 'Table' | 'TableExport' | 'TableImport' | 'Tag' | 'Tags' | 'Target' | 'Telescope' | 'Terminal' | 'ThumbDown' | 'ThumbUp' | 'Ticket' | 'Timeline' | 'Tool' | 'Tools' | 'Track' | 'TrafficLights' | 'Transform' | 'Trash' | 'Tree' | 'Trees' | 'Typography' | 'Umbrella' | 'Underline' | 'Unlink' | 'Upload' | 'Urgent' | 'User' | 'UserCircle' | 'Users' | 'Versions' | 'Video' | 'Viewfinder' | 'Vocabulary' | 'Volume' | 'Walk' | 'Wallpaper' | 'Wand' | 'Wash' | 'WaveSine' | 'Webhook' | 'Weight' | 'Wifi' | 'Window' | 'World' | 'Writing' | 'X'
 
